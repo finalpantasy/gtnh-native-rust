@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "verified_on": "2026-10-31",
+  "status": "PASS_TWO_NATIVE_BUNDLES_OFFSCREEN",
+  "horizon_revision": "681124a485b82a27ac4e769756a2f3a2356e6827",
+  "native_hook_api": 45,
+  "named_hook": {
+    "name": "server_tick",
+    "contract_version": 1,
+    "introduced_at_api": 4
+  },
+  "mixins_revision": "4342a0bfbe71d4d14185528d64e496d6022f16a1",
+  "rust": "1.99.1",
+  "target": "x86_64-pc-windows-gnu",
+  "profile": "fast",
+  "base_version": "nightly-2026-10-31-d91cab6",
+  "installed_native_version": "native-681124a-6513d2ec4d62",
+  "actual_launcher_build_and_install": true,
+  "compiler_cache_primed": true,
+  "archives": {
+    "gtnh_foundation_proof.hnmod": "91e8f61f09be03f86f9aba8440c04670a8b53ef10239771fb92e5e01b5f31c6e",
+    "gtnh_tick_probe.hnmod": "fe872e900f71b26c5639897a3cfe82a73895bac184b7f0d7d135241b6d06d24a"
+  },
+  "client_sha256": "d0906b3da95de0e835c3d7d3dde65b162cbe409974480407326d89e6a994bbc5",
+  "mixins_tool_sha256": "2de73e70c1a732dd672f5dcbcaf8ca8b3434bf97f08ea05f1bd88873173d4030",
+  "source_lock_sha256": "4efa1670c15338e84c48e9016a7739c5046adc74b554b88894c3b6c5762868ef",
+  "staged_lock_sha256": "f7cfab7fa7fc64cb307711c32e9567d7fa693bdfc101700f85ca776685fcdf5d",
+  "unchanged_registry_packages": 437,
+  "unchanged_library_source_files": 15,
+  "cache_initialization": {
+    "first_observation": "FAIL_INPUT_INTEGRITY",
+    "only_changed_file": "horizon-sprites.cache",
+    "identical_decoded_sprites": 1301,
+    "receipt_sha256": "f8ecfed0c142927d544923ca4f2b527b334311e33dc04286cafb0fabac4d8115"
+  },
+  "final_runtime": {
+    "fresh_offscreen_world": true,
+    "live_player": true,
+    "marker_counts": {
+      "GTNH_NATIVE_FOUNDATION_LIBS_OK id=gtnh:probe all_complete=true": 1,
+      "GTNH_NATIVE_SERVER_TICK_PROBE_OK": 1
+    },
+    "exit_code": 0,
+    "forced_shutdown": false,
+    "client_unchanged": true,
+    "staged_source_unchanged": true,
+    "all_resources_including_initialized_cache_unchanged": true,
+    "game_seconds": 20.353,
+    "receipt_sha256": "4e9cd8cbb939af10aafa273d08cdc806cc9c94e5f7b56ad9ba0136050ff667a7",
+    "game_log_sha256": "06535e506dd7837062ce248e7124e978ccd3be2c7540209781acbe2145bd27e6"
+  },
+  "independent_review": "APPROVED_SOURCE_PACKAGING_AND_ACTUAL_RUNTIME_EVIDENCE",
+  "limits": [
+    "Two library crates and two native hooks only",
+    "No registered compressor or full GTNH gameplay parity",
+    "No performance benchmark or extended stability claim",
+    "Manual candidate and player profiles excluded"
+  ]
+}

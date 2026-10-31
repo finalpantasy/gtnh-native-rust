@@ -1,0 +1,22 @@
+[mod]
+id = "gtnh_foundation_proof"
+version = "0.1.0"
+
+[compatibility]
+horizon_revision = "681124a485b82a27ac4e769756a2f3a2356e6827"
+
+[[injection]]
+id = "server_tick"
+hook = "server_tick"
+hook_version = 1
+kind = "HEAD"
+helper = "server_tick.rs"
+bindings = [{ name = "game", ty = "&mut crate::game::Game<'_>", value = "&mut *self" }]
+
+[[crate]]
+id = "industrial_sim"
+path = "crates/industrial-sim"
+
+[[crate]]
+id = "quest_core"
+path = "crates/quest-core"

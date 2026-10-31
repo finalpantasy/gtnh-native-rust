@@ -1,0 +1,198 @@
+{
+  "schema": 1,
+  "horizon_revision": "681124a485b82a27ac4e769756a2f3a2356e6827",
+  "mixins_revision": "4342a0bfbe71d4d14185528d64e496d6022f16a1",
+  "workspace": {
+    "source_path": "native-foundation/Cargo.toml",
+    "source_lf_sha256": "809e5e70f02917e66576f0b552e4c0139687bb9b0f58dc237e87637e90a6b486",
+    "package": {
+      "version": "0.1.0",
+      "edition": "2024",
+      "rust-version": "1.90",
+      "license": "MIT"
+    },
+    "lints": {
+      "rust": {
+        "unsafe_code": "forbid"
+      }
+    }
+  },
+  "bundles": [
+    {
+      "id": "gtnh_foundation_proof",
+      "archive_name": "gtnh_foundation_proof.hnmod",
+      "reference_archive_sha256": "91e8f61f09be03f86f9aba8440c04670a8b53ef10239771fb92e5e01b5f31c6e",
+      "templates": [
+        {
+          "template": "gtnh_foundation_proof/horizon-native.json",
+          "archive_path": "horizon-native.json",
+          "sha256": "ba04b6188f08772b84c38d000f2e3e77924b6895dbadfe5ab074075aed877d32"
+        },
+        {
+          "template": "gtnh_foundation_proof/horizon-mixin.toml",
+          "archive_path": "mixins/gtnh_foundation_proof/horizon-mixin.toml",
+          "sha256": "209846f9d2592dc7145aa5ed5195bd22d43555b64ab10e494a28a49cd0abe4a5"
+        },
+        {
+          "template": "gtnh_foundation_proof/server_tick.rs",
+          "archive_path": "mixins/gtnh_foundation_proof/server_tick.rs",
+          "sha256": "f510dee1fc3bed050a64ae7ce0619d1d379e13ac15442bc5d38b3610a8ea25ba"
+        },
+        {
+          "template": "gtnh_foundation_proof/NOTICE.md",
+          "archive_path": "mixins/gtnh_foundation_proof/NOTICE.md",
+          "sha256": "fd30cf70b2d87924713b5cdcfff4024122fe5d2b0d81191f4a13abcef471eb52"
+        }
+      ],
+      "license": {
+        "source_path": "LICENSE",
+        "archive_path": "mixins/gtnh_foundation_proof/LICENSE",
+        "normalized_text_sha256": "5ca2edff81e14fd5e751f4e2963d4935c387254336cde380728e217021aaa2b5",
+        "archive_sha256": "5ca2edff81e14fd5e751f4e2963d4935c387254336cde380728e217021aaa2b5",
+        "newline_policy": "lf"
+      },
+      "betterquesting_license": {
+        "source_path": "native-foundation/licenses/BetterQuesting-MIT.txt",
+        "archive_path": "mixins/gtnh_foundation_proof/licenses/LICENSE-BetterQuesting-MIT.txt",
+        "sha256": "b3d0d6972715589785e3850d40d91099e84c32da09aa4f8b57b441e68ff909b2"
+      },
+      "library_crates": [
+        {
+          "crate_id": "industrial_sim",
+          "source_name": "industrial-sim",
+          "source_dir": "native-foundation/crates/industrial-sim",
+          "archive_dir": "mixins/gtnh_foundation_proof/crates/industrial-sim",
+          "package_name": "gtnh-foundation-proof-industrial-sim",
+          "source_manifest_lf_sha256": "6e3106803d11105d14864d59c7b462ead0ad4c1ec36cf2db1c45f36148e40b4b",
+          "standalone_manifest_sha256": "f793122575f25f85ff0baddac193d74c9cf778c14e466d218dd498dc45cda9a0",
+          "direct_dependencies": {
+            "serde": {
+              "requirement": "1",
+              "locked_version": "1.0.229"
+            },
+            "serde_json": {
+              "requirement": "=1.0.151",
+              "locked_version": "1.0.151"
+            }
+          },
+          "source_files": [
+            {
+              "path": "src/content.rs",
+              "sha256": "851e0caa4d9dcbe258f1e4d91b7cb7cabceca682b25b5f4feb858e1d867068a7"
+            },
+            {
+              "path": "src/content/selection_tests.rs",
+              "sha256": "0c3e9056e6ea3742649b5a16597b547c460650b6d705d5111fb341e0c881bfcb"
+            },
+            {
+              "path": "src/inventory.rs",
+              "sha256": "0fd7817ddfb8f2701606c028bbad0dfa81e67b22a2a2f4ea53d841cd6e6e6a5a"
+            },
+            {
+              "path": "src/lib.rs",
+              "sha256": "931101fa775de136e2bfe4b01a06c91b71fa53382e5575cca8a7be7d8e60483f"
+            },
+            {
+              "path": "src/logistics.rs",
+              "sha256": "71de21853c42c291a0110fe0a740f2ef3a1795e7ed92e51dc76606bc66a2f630"
+            },
+            {
+              "path": "src/logistics/tests.rs",
+              "sha256": "575a7b8a853fa7842581fb3ec3d14ec18d742e7d8fd0a8e42fc44f11e0ef5c0a"
+            },
+            {
+              "path": "src/machine.rs",
+              "sha256": "b294e3ea3951da73e62872cc7a442f1b52bafce83f975f7c905a8b139db717ff"
+            }
+          ]
+        },
+        {
+          "crate_id": "quest_core",
+          "source_name": "quest-core",
+          "source_dir": "native-foundation/crates/quest-core",
+          "archive_dir": "mixins/gtnh_foundation_proof/crates/quest-core",
+          "package_name": "gtnh-foundation-proof-quest-core",
+          "source_manifest_lf_sha256": "15c78869fd2c70bedde80353f11e3cf2fd882a299d29e6985aa54ae08d8034ab",
+          "standalone_manifest_sha256": "bbbb259055e99277850bfcd95b6f2d74a43ec5b3297284a5817e5cd9e5dcdcb9",
+          "direct_dependencies": {
+            "serde": {
+              "requirement": "1",
+              "locked_version": "1.0.229"
+            },
+            "serde_json": {
+              "requirement": "=1.0.151",
+              "locked_version": "1.0.151"
+            },
+            "sha2": {
+              "requirement": "=0.10.9",
+              "locked_version": "0.10.9"
+            }
+          },
+          "source_files": [
+            {
+              "path": "src/catalog.rs",
+              "sha256": "e2ba00e55b3adadd7e13a87fdd8df901838b03dd85845856a46c75550da2c555"
+            },
+            {
+              "path": "src/item_match.rs",
+              "sha256": "8b838cb0f1ad1cb25fee00dd20b07db5bbde82e9fb58b6d775fd1a5e3976f980"
+            },
+            {
+              "path": "src/item_match/tests.rs",
+              "sha256": "d857699f243c9a1e0621e831a4ce3aa3fca7e564f5f52715c26e3bc42e475d00"
+            },
+            {
+              "path": "src/lib.rs",
+              "sha256": "a2dbf135bc97bafc59b70c03f390dcc1a29f9149c94afd777caedf8f6ac39c34"
+            },
+            {
+              "path": "src/logic.rs",
+              "sha256": "7531dd1ae93a8c9b1503328ee082e3266aec852d656e26b7a88efdb4b029f87a"
+            },
+            {
+              "path": "src/progress.rs",
+              "sha256": "09029d05fc8d50a1328785e060a3b2dbf964ea6e56bd625bbe8b853123977955"
+            },
+            {
+              "path": "src/retrieval.rs",
+              "sha256": "5ba56a35c6f38ba6ee90340b16b423d972e3aa7c8bc022e9cc2c8a5c754a07d3"
+            },
+            {
+              "path": "src/retrieval/tests.rs",
+              "sha256": "73774dbba5f2830145cde4d6048335f03d0579b2dbaae6ba17c26f509617d378"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gtnh_tick_probe",
+      "archive_name": "gtnh_tick_probe.hnmod",
+      "reference_archive_sha256": "fe872e900f71b26c5639897a3cfe82a73895bac184b7f0d7d135241b6d06d24a",
+      "templates": [
+        {
+          "template": "gtnh_tick_probe/horizon-native.json",
+          "archive_path": "horizon-native.json",
+          "sha256": "15097eb5842055e3b6abe9da383ca5632a0a5473fe09f49931620e0d9e225b01"
+        },
+        {
+          "template": "gtnh_tick_probe/horizon-mixin.toml",
+          "archive_path": "mixins/gtnh_tick_probe/horizon-mixin.toml",
+          "sha256": "f609426d117261b47b070d81837b456cf3a4db90fc269d34e03f382360d23a9b"
+        },
+        {
+          "template": "gtnh_tick_probe/server_tick.rs",
+          "archive_path": "mixins/gtnh_tick_probe/server_tick.rs",
+          "sha256": "30ac99b3bc81c92c264af7cacbb349c93d3ebb85aae0b8b10388cf4494a7e10f"
+        }
+      ],
+      "license": {
+        "source_path": "LICENSE",
+        "archive_path": "mixins/gtnh_tick_probe/LICENSE",
+        "normalized_text_sha256": "5ca2edff81e14fd5e751f4e2963d4935c387254336cde380728e217021aaa2b5",
+        "archive_sha256": "7d1cee55e1946c2826575cfd3710c2f7892691d1e18616339ef1da5fb7699a07",
+        "newline_policy": "crlf"
+      }
+    }
+  ]
+}

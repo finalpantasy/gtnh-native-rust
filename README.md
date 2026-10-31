@@ -14,6 +14,8 @@ Actual development-lab capture: synthetic processing, quest submission/reward ac
 
 The current recipes/tasks in the lab are synthetic. Six separately labeled compressor parameter fixtures record source-declared facts, not complete registered-recipe parity. `reference/gtnh-2.9.0/mods.json` retains all 243 pinned manifest entries with explicit unfinished status. No upstream mod is silently dropped.
 
+[Native bundle packaging](docs/native-bundle-proof.md) now carries the industrial and quest libraries through Horizon's existing `.hnmod` system. The real Windows launcher built and installed two independent test mods, and both hooks ran in a fresh offscreen world with a clean shutdown and unchanged final inputs. This verifies library packaging and hook composition; compressor gameplay and complete pack parity remain unfinished.
+
 ## Run the library checks
 
 The commands below require Rust 1.95 or newer because they include the desktop viewer. The core libraries separately declare Rust 1.90.
@@ -34,7 +36,7 @@ The viewer is a separate technical lab, not the first-person Horizon client. Its
 
 The original configured GTNH pack is a private Java comparison oracle. The shipping engine and mod implementations remain native Rust. A menu-and-world capture observed 11,343 item registry entries and 4,258 blocks at both stages. After integrated-world startup, crafting recipe counts changed from 64,994 to 60,697 and GregTech recipe rows increased from 185,170 to 187,204 across 172 maps. Menu data alone is insufficient. Five world-stage stacks have unresolved item IDs; dedicated-server coverage, full item variants and gameplay parity remain unverified. [Stage coverage metadata](reference/gtnh-2.9.0/runtime-stage-coverage.json) records the descriptive counts and evidence hashes without distributing the raw exports.
 
-The pinned release comes from the official [GTNH modpack repository](https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/tag/2.9.0). Its release definitions and configuration are used alongside individual mod sources, including [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) and [BetterQuesting](https://github.com/GTNewHorizons/BetterQuesting), and observations from the running pack. The [engine integration notes](ENGINE.md) describe the planned use of Horizon's existing native mod system and the remaining packaging checks.
+The pinned release comes from the official [GTNH modpack repository](https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/tag/2.9.0). Its release definitions and configuration are used alongside individual mod sources, including [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) and [BetterQuesting](https://github.com/GTNewHorizons/BetterQuesting), and observations from the running pack. The [engine integration notes](ENGINE.md) describe the verified native bundle boundary and remaining integration work.
 
 ## Licensing
 
