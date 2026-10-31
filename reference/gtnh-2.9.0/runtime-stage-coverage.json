@@ -1,0 +1,47 @@
+{
+  "reference_version": "GTNH 2.9.0",
+  "captured_date": "2026-10-31",
+  "status": "FINALIZED_STAGE_COUNTS_VERIFIED",
+  "stages": {
+    "client-menu": {
+      "loaded_modules": 324,
+      "item_registry_entries": 11343,
+      "block_registry_entries": 4258,
+      "crafting_recipes": 64994,
+      "gregtech_maps": 172,
+      "gregtech_rows": 185170,
+      "nonempty_gregtech_maps": 164,
+      "fog_molten_rows": 0,
+      "unresolved_negative_item_id_stacks": 0,
+      "report_diagnostics": 0,
+      "report_sha256": "b431952b1a4236f379d6e3f0d864f89bfc65fb3f90115210c0b94628c0c1323d",
+      "recipe_stream_sha256": "169638b40077cd7f28e2fe982df9fc7cc6f9e0593dacfe00b49fe7f67331bdf1"
+    },
+    "integrated-world": {
+      "loaded_modules": 324,
+      "item_registry_entries": 11343,
+      "block_registry_entries": 4258,
+      "crafting_recipes": 60697,
+      "gregtech_maps": 172,
+      "gregtech_rows": 187204,
+      "nonempty_gregtech_maps": 165,
+      "fog_molten_rows": 2034,
+      "unresolved_negative_item_id_stacks": 5,
+      "report_diagnostics": 0,
+      "report_sha256": "161c97845fabb0908279c0d9518f10cc9f5550ab36d5271d668827060dd95f32",
+      "recipe_stream_sha256": "2f9f076fda54b9ee9c98efa5bfd5fa9dbb696daacab4a22d2417b517c8941c08"
+    }
+  },
+  "coverage": {
+    "client_menu": "OBSERVED",
+    "integrated_server_start": "OBSERVED",
+    "integrated_overworld_load": "OBSERVED",
+    "dedicated_server": "NOT_RUN"
+  },
+  "limits": [
+    "Registered fields and descriptive counts only; not full schema, item-variant or gameplay parity.",
+    "Five integrated-world stacks report item id -1 and remain unresolved.",
+    "Crafting counts and some recipe rows change between stages; menu data alone is insufficient.",
+    "Captured raw game data and player files are not included."
+  ]
+}
