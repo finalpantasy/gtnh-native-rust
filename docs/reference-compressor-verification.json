@@ -1,0 +1,101 @@
+{
+  "schema": 1,
+  "date": "2026-10-31",
+  "scope": "Six declared compressor recipes with one-time fixture energy; not complete GTNH machine or pack parity",
+  "status": "PASS_BOUNDED_SIX_CASE_GAMEPLAY",
+  "horizon": "681124a485b82a27ac4e769756a2f3a2356e6827",
+  "mixins": "4342a0bfbe71d4d14185528d64e496d6022f16a1",
+  "hook_api": 45,
+  "rust": "1.99.1",
+  "target": "x86_64-pc-windows-gnu",
+  "profile": "fast",
+  "base": "nightly-2026-10-31-d91cab6",
+  "native_version": "native-681124a-d943ed32c6cb",
+  "client_sha256": "22d23ac81896dcf15f41aeda39abd5d411ed6f4a7f7b7ff4ee1f7d90cdfcd158",
+  "native_archive_sha256": "30775d92e6b50683105e124376fb74a27d1e83fcae4f84ed4e6292c32fd5b2ff",
+  "content_archive_sha256": "4078fa41ed3b956bc8a93369245ae3befd4fec53360eedec29d3cb2c864bad4a",
+  "probe_archive_sha256": "fe872e900f71b26c5639897a3cfe82a73895bac184b7f0d7d135241b6d06d24a",
+  "fixture_sha256": "677326f37097689f37652a247d6b172f6881159b5f6f3860d2cb63ae9c12d456",
+  "runtime_receipt_sha256": "cb5cedf55cd346631e992dec09ea88bcd265db26ca377ac0dc4bab690a45d8b1",
+  "registration_receipt_sha256": "5bea6892a5a265d52484750de38f7b425ff69890b6578a59006db7c28dfd8b66",
+  "installation_receipt_sha256": "c4bdf99b6fad2eba02092a8867156bb68805b7261cb7c91643df98a34113ef5f",
+  "harness_sha256": "acd88535494b15b34ffad0303711da5f5d1b80ebc695b80b610f2ac350d9fd45",
+  "bounded_receipt_sha256": "793e29d1389e31e8061257eea74f5c1a74ae9bc8f5330d4c88a43e97bbecc44a",
+  "bounded_log_sha256": "b5489ef4f639a935e25de49ecb75d02fe18c4fd3830a4d92f9871e2542875227",
+  "bounded_seconds": 201.997,
+  "observation_seconds": 190.616,
+  "unchanged_input_files": {
+    "stage": 3765,
+    "content": 1,
+    "resources": 23065
+  },
+  "unchanged_registry_packages": 437,
+  "unchanged_library_rust_files": 7,
+  "game_processes": 4,
+  "forced_tree_termination": false,
+  "visible_game_launched": false,
+  "server_unloaded_ticks": 400,
+  "cases_completed": 6,
+  "eu_received_per_case": 600,
+  "eu_stored_after_completion_per_case": 0,
+  "outputs_per_case": 1,
+  "unconsumed_batches_retained_per_case": 1,
+  "adapter_tests": {
+    "passed": 13,
+    "actual_api45_save_types": true,
+    "receipt_sha256": "5c6d73a209bd19df77a965854db0c2bc56a92f2aedd13c64cd4f0b2c74f108e1",
+    "duplicate_input_mutant_rejected_by_existing_tests": 3
+  },
+  "observation_contract_tests": 9,
+  "hopper_checks": [
+    "top inserts only input",
+    "bottom does not extract unconsumed input",
+    "insertion does not grant energy or work"
+  ],
+  "checks": [
+    "actual menu transfers",
+    "active binary world save and process reopen",
+    "completed blocked output save and process reopen",
+    "collected player inventory and host slots survive final reopen",
+    "repeated charge rejected",
+    "no processing without power",
+    "true authoritative server eviction and unchanged reload after 400 stepped ticks",
+    "exact server clock increments",
+    "native tick probe once per process",
+    "clean shutdown for every process",
+    "full source/content/resources/executable integrity bound to registration"
+  ],
+  "phase_logs": {
+    "initial": "216579e36ffde2076e7b40690ceaff112678b87e12fda94596a449ab7f8b6d12",
+    "reopen-active": "7792846773d4cb8b088590a50e03df984bed71437a9b77a86381a069f4b23de5",
+    "reopen-blocked": "e9f53eaaad3682bbb6cf81275378b6641e90a5b06ae3b28d7f7274937d65fed0",
+    "reopen-finished": "5fee70ae69dbc3d7662fc59a255844abe3cea721c773cb3d0f3074ea0abc66ed"
+  },
+  "screenshot": {
+    "path": "images/reference-compressor.png",
+    "sha256": "4d8373777acfdf236778ccafe451f7e7f67c159c6fbad797f3de5f59d9071616",
+    "source_sha256": "bcc6f9abacb5cd93cdd86a2a0ee84290d79ce419b01a274940e7180969ecdbf5",
+    "source_pixels": [
+      1440,
+      810
+    ],
+    "crop_xywh": [
+      450,
+      133,
+      540,
+      546
+    ],
+    "kind": "actual game capture; no synthetic render"
+  },
+  "independent_review": "Approved raw records, 89 machine observations, bindings and fresh complete input rehash; lead inspected actual screenshot",
+  "unverified": [
+    "full GTNH machine timing and overclocking",
+    "generators and electrical networks",
+    "complete recipes and item variants",
+    "ordinary removal/wrench/explosion runtime comparison",
+    "multiplayer and dedicated server",
+    "long-duration performance and stability",
+    "human playtesting",
+    "full modpack progression through endgame"
+  ]
+}

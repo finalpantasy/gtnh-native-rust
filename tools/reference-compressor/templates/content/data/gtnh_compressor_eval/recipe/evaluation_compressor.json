@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": ["minecraft:furnace", "minecraft:iron_ingot"],
+  "result": { "id": "gtnh_compressor_eval:reference_compressor" }
+}

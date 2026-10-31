@@ -1,0 +1,202 @@
+{
+  "schema": 1,
+  "package": {
+    "id": "gtnh_compressor_eval",
+    "version": "0.1.0",
+    "game": "26.3",
+    "horizon_revision": "681124a485b82a27ac4e769756a2f3a2356e6827",
+    "mixins_revision": "4342a0bfbe71d4d14185528d64e496d6022f16a1",
+    "native_archive": "gtnh_compressor_eval.hnmod",
+    "content_archive": "gtnh_compressor_eval.hmod",
+    "native_archive_sha256": "30775d92e6b50683105e124376fb74a27d1e83fcae4f84ed4e6292c32fd5b2ff",
+    "content_archive_sha256": "4078fa41ed3b956bc8a93369245ae3befd4fec53360eedec29d3cb2c864bad4a",
+    "runtime_sha256": "82cb25697c693d799729b97fd12cf15c479a08553df3749fb2d4af039e232dd2"
+  },
+  "pack_inputs": {
+    "workspace_manifest": {
+      "path": "native-foundation/Cargo.toml",
+      "sha256": "809e5e70f02917e66576f0b552e4c0139687bb9b0f58dc237e87637e90a6b486"
+    },
+    "workspace_metadata": {
+      "package": {
+        "edition": "2024",
+        "rust-version": "1.90",
+        "license": "MIT",
+        "version": "0.1.0"
+      },
+      "lints": {
+        "rust": {
+          "unsafe_code": "forbid"
+        }
+      }
+    },
+    "crate": {
+      "source_dir": "native-foundation/crates/industrial-sim",
+      "archive_dir": "mixins/gtnh_compressor_eval/crates/industrial-sim",
+      "source_name": "industrial-sim",
+      "package_name": "gtnh-compressor-eval-industrial-sim",
+      "source_manifest_sha256": "6e3106803d11105d14864d59c7b462ead0ad4c1ec36cf2db1c45f36148e40b4b",
+      "standalone_manifest_sha256": "8f5732d2a5d7493a19defaa37a2771baa2122330521baeff66e10c548e6a0541",
+      "dependencies": {
+        "serde": {
+          "requirement": "1",
+          "features": [
+            "derive"
+          ]
+        },
+        "serde_json": {
+          "requirement": "=1.0.151"
+        }
+      },
+      "source_files": [
+        {
+          "path": "src/content.rs",
+          "sha256": "851e0caa4d9dcbe258f1e4d91b7cb7cabceca682b25b5f4feb858e1d867068a7"
+        },
+        {
+          "path": "src/content/selection_tests.rs",
+          "sha256": "0c3e9056e6ea3742649b5a16597b547c460650b6d705d5111fb341e0c881bfcb"
+        },
+        {
+          "path": "src/inventory.rs",
+          "sha256": "0fd7817ddfb8f2701606c028bbad0dfa81e67b22a2a2f4ea53d841cd6e6e6a5a"
+        },
+        {
+          "path": "src/lib.rs",
+          "sha256": "931101fa775de136e2bfe4b01a06c91b71fa53382e5575cca8a7be7d8e60483f"
+        },
+        {
+          "path": "src/logistics.rs",
+          "sha256": "71de21853c42c291a0110fe0a740f2ef3a1795e7ed92e51dc76606bc66a2f630"
+        },
+        {
+          "path": "src/logistics/tests.rs",
+          "sha256": "575a7b8a853fa7842581fb3ec3d14ec18d742e7d8fd0a8e42fc44f11e0ef5c0a"
+        },
+        {
+          "path": "src/machine.rs",
+          "sha256": "b294e3ea3951da73e62872cc7a442f1b52bafce83f975f7c905a8b139db717ff"
+        }
+      ]
+    },
+    "fixture": {
+      "path": "native-foundation/fixtures/compressor-reference-v1.json",
+      "sha256": "677326f37097689f37652a247d6b172f6881159b5f6f3860d2cb63ae9c12d456"
+    },
+    "package_license_sha256": "5ca2edff81e14fd5e751f4e2963d4935c387254336cde380728e217021aaa2b5"
+  },
+  "support_files": [
+    {
+      "path": "compressor_adapter.rs",
+      "sha256": "466559d19313758cb4fb335e6490f84f327e470c1d2a923ae86f8dc3332fd658"
+    },
+    {
+      "path": "horizon_machine.rs",
+      "sha256": "5454e8f8becd5c8793d931c858e8fa978a51553e7312a26a11132225675420ed"
+    }
+  ],
+  "native_templates": [
+    {
+      "path": "horizon-native.json",
+      "archive_path": "horizon-native.json",
+      "sha256": "de241ec4bcc43cc904558d79b0cdc2c5d7271608b6fecd1a8ed05900eeac2517"
+    },
+    {
+      "path": "mixins/gtnh_compressor_eval/LICENSE",
+      "archive_path": "mixins/gtnh_compressor_eval/LICENSE",
+      "sha256": "5ca2edff81e14fd5e751f4e2963d4935c387254336cde380728e217021aaa2b5"
+    },
+    {
+      "path": "mixins/gtnh_compressor_eval/NOTICE.md",
+      "archive_path": "mixins/gtnh_compressor_eval/NOTICE.md",
+      "sha256": "48eb132464e0354b70c182adc67437998462d60b9f272b7a67374e6afc1415b1"
+    },
+    {
+      "path": "mixins/gtnh_compressor_eval/hooks/block_entity.rs",
+      "archive_path": "mixins/gtnh_compressor_eval/hooks/block_entity.rs",
+      "sha256": "570c84220b5c800822283492186b521ef993c8e33b04377a10ccf33a9fe26686"
+    },
+    {
+      "path": "mixins/gtnh_compressor_eval/hooks/block_entity_container.rs",
+      "archive_path": "mixins/gtnh_compressor_eval/hooks/block_entity_container.rs",
+      "sha256": "0b1a4f8d960c9ee2bd76a9f1e07220f307614ef82bcadaa3cfb57874334e81c8"
+    },
+    {
+      "path": "mixins/gtnh_compressor_eval/hooks/block_entity_tick.rs",
+      "archive_path": "mixins/gtnh_compressor_eval/hooks/block_entity_tick.rs",
+      "sha256": "6bbc9d61bcb2089784becd367dcc260b42a742b3d59efcdc8d8a1b74ee885d8f"
+    },
+    {
+      "path": "mixins/gtnh_compressor_eval/hooks/block_entity_ticks.rs",
+      "archive_path": "mixins/gtnh_compressor_eval/hooks/block_entity_ticks.rs",
+      "sha256": "2e31ca3cc027a38aeed3e87e855813c7bb5d1272d0d1e1623346fcf3d4af7a00"
+    },
+    {
+      "path": "mixins/gtnh_compressor_eval/hooks/perform_command.rs",
+      "archive_path": "mixins/gtnh_compressor_eval/hooks/perform_command.rs",
+      "sha256": "4beb8acd0d54b1473a07218a5d4776003aeeddbed5f9f88fbbd1438a72a3893b"
+    },
+    {
+      "path": "mixins/gtnh_compressor_eval/hooks/register_commands.rs",
+      "archive_path": "mixins/gtnh_compressor_eval/hooks/register_commands.rs",
+      "sha256": "1a71b686660c900e48df068955205a8bb7c6e92b38f6012b6566cc8538769063"
+    },
+    {
+      "path": "mixins/gtnh_compressor_eval/hooks/screen.rs",
+      "archive_path": "mixins/gtnh_compressor_eval/hooks/screen.rs",
+      "sha256": "7ec7c6a4acee003b3058d1a6302fbbce641c3f4d2ac69fb1c474e8f2529a8bf0"
+    },
+    {
+      "path": "mixins/gtnh_compressor_eval/hooks/screen_draw.rs",
+      "archive_path": "mixins/gtnh_compressor_eval/hooks/screen_draw.rs",
+      "sha256": "9bec0a8017e77defc313f34309966f4b0c46f662ef76ecf724868845cd845c12"
+    },
+    {
+      "path": "mixins/gtnh_compressor_eval/horizon-mixin.toml",
+      "archive_path": "mixins/gtnh_compressor_eval/horizon-mixin.toml",
+      "sha256": "ef7a5105996fa28486989cc8a7854885776d7d6de156e70edb658e079b7eaf71"
+    }
+  ],
+  "content_templates": [
+    {
+      "path": "assets/gtnh_compressor_eval/blockstates/reference_compressor.json",
+      "archive_path": "assets/gtnh_compressor_eval/blockstates/reference_compressor.json",
+      "sha256": "a62e4d1afac32f854af092f8f7bcf7f53272496929327010658055cd551fbe12"
+    },
+    {
+      "path": "assets/gtnh_compressor_eval/items/reference_compressor.json",
+      "archive_path": "assets/gtnh_compressor_eval/items/reference_compressor.json",
+      "sha256": "ee55b6b4deef3bf0d396c3f4bc03b8761ba880942569f4d7c7aa36de0bc9a56e"
+    },
+    {
+      "path": "assets/gtnh_compressor_eval/lang/en_us.json",
+      "archive_path": "assets/gtnh_compressor_eval/lang/en_us.json",
+      "sha256": "16de5236bfb4f04348572f126d0fc2eb768559238328b51e570152b3bdd7c572"
+    },
+    {
+      "path": "assets/gtnh_compressor_eval/models/item/reference_compressor.json",
+      "archive_path": "assets/gtnh_compressor_eval/models/item/reference_compressor.json",
+      "sha256": "d804b4030b70e1fd64b791468098dbe88f4ccc5e271c15cb4629c62cd68ca55d"
+    },
+    {
+      "path": "data/gtnh_compressor_eval/horizon/block/reference_compressor.json",
+      "archive_path": "data/gtnh_compressor_eval/horizon/block/reference_compressor.json",
+      "sha256": "9420618d945d1178f0c5712114ca5fe98af2785f527fa73d8528f6280b7dd993"
+    },
+    {
+      "path": "data/gtnh_compressor_eval/loot_table/blocks/reference_compressor.json",
+      "archive_path": "data/gtnh_compressor_eval/loot_table/blocks/reference_compressor.json",
+      "sha256": "addb936257207be091c386f4a5458196f1a7660fac467aff4d8ea996c0dc76d0"
+    },
+    {
+      "path": "data/gtnh_compressor_eval/recipe/evaluation_compressor.json",
+      "archive_path": "data/gtnh_compressor_eval/recipe/evaluation_compressor.json",
+      "sha256": "141ae45a4c9c14da38cb314e595bada93df7e9a8d949b874527508d0ba36a0ca"
+    },
+    {
+      "path": "horizon-mod.toml",
+      "archive_path": "horizon-mod.toml",
+      "sha256": "7c5100f42d9286d1a1b8b39b15ea028bafaf9f4a8b4cc4d02a4d32a3179c95e8"
+    }
+  ]
+}

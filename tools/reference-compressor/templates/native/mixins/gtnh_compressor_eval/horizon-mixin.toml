@@ -1,0 +1,112 @@
+[mod]
+id = "gtnh_compressor_eval"
+version = "0.1.0"
+
+[compatibility]
+horizon_revision = "681124a485b82a27ac4e769756a2f3a2356e6827"
+
+[[module]]
+id = "runtime"
+file = "crates/horizon-client/src/game.rs"
+name = "gtnh_compressor_eval"
+source = "runtime.rs"
+
+[[crate]]
+id = "industrial_sim"
+path = "crates/industrial-sim"
+
+[[injection]]
+id = "block_entity"
+hook = "block_entity"
+hook_version = 1
+kind = "HEAD"
+helper = "hooks/block_entity.rs"
+bindings = [
+  { name = "game", ty = "&mut crate::game::Game<'_>", value = "&mut *self" },
+  { name = "block", ty = "&str", value = "block" },
+  { name = "entity", ty = "&mut Option<(String, horizon_world::nbt::Compound)>", value = "entity" }
+]
+
+[[injection]]
+id = "block_entity_ticks"
+hook = "block_entity_ticks"
+hook_version = 1
+kind = "HEAD"
+helper = "hooks/block_entity_ticks.rs"
+bindings = [
+  { name = "game", ty = "&crate::game::Game<'_>", value = "&*self" },
+  { name = "block", ty = "&str", value = "block" },
+  { name = "ticks", ty = "&mut bool", value = "ticks" }
+]
+
+[[injection]]
+id = "block_entity_container"
+hook = "block_entity_container"
+hook_version = 1
+kind = "HEAD"
+helper = "hooks/block_entity_container.rs"
+bindings = [
+  { name = "game", ty = "&crate::game::Game<'_>", value = "&*self" },
+  { name = "block", ty = "&str", value = "block" },
+  { name = "container", ty = "&mut Option<ModContainer>", value = "container" }
+]
+
+[[injection]]
+id = "block_entity_tick"
+hook = "block_entity_tick"
+hook_version = 1
+kind = "HEAD"
+helper = "hooks/block_entity_tick.rs"
+bindings = [
+  { name = "game", ty = "&mut crate::game::Game<'_>", value = "&mut *self" },
+  { name = "entity", ty = "&mut ModBlockEntity", value = "entity" }
+]
+
+[[injection]]
+id = "screen"
+hook = "screen"
+hook_version = 1
+kind = "HEAD"
+helper = "hooks/screen.rs"
+bindings = [
+  { name = "game", ty = "&crate::game::Game<'_>", value = "&*self" },
+  { name = "block", ty = "&str", value = "block" },
+  { name = "screen", ty = "&mut Option<NativeScreen>", value = "screen" }
+]
+
+[[injection]]
+id = "screen_draw"
+hook = "screen_draw"
+hook_version = 1
+kind = "HEAD"
+helper = "hooks/screen_draw.rs"
+bindings = [
+  { name = "game", ty = "&crate::game::Game<'_>", value = "&*self" },
+  { name = "block", ty = "&str", value = "block" },
+  { name = "data", ty = "&[i32]", value = "data" },
+  { name = "batch", ty = "&mut HudBatch", value = "batch" },
+  { name = "origin", ty = "[f32; 2]", value = "origin" }
+]
+
+[[injection]]
+id = "register_commands"
+hook = "register_commands"
+hook_version = 1
+kind = "HEAD"
+helper = "hooks/register_commands.rs"
+bindings = [
+  { name = "game", ty = "&mut crate::game::Game<'_>", value = "&mut *self" },
+  { name = "commands", ty = "&mut Vec<NativeCommand>", value = "commands" }
+]
+
+[[injection]]
+id = "perform_command"
+hook = "perform_command"
+hook_version = 1
+kind = "HEAD"
+helper = "hooks/perform_command.rs"
+bindings = [
+  { name = "game", ty = "&mut crate::game::Game<'_>", value = "&mut *self" },
+  { name = "command", ty = "&str", value = "command" },
+  { name = "ran", ty = "&mut bool", value = "ran" }
+]

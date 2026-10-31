@@ -10,11 +10,13 @@ Actual development-lab capture: synthetic processing, quest submission/reward ac
 
 ## Current code
 
-`native-foundation/` is a runnable independent experiment containing industrial simulation, item/fluid transfers, quest primitives, transactional storage, cubic streaming, budgeted GPU resources and a native inspection viewer. The world/rendering modules are integration experiments pending adoption into the engine; they are not permanent GTNH-only engine requirements. `bridges/horizon_machine.rs` is an optional, separately verified Horizon adapter experiment, not a registered pack mod.
+`native-foundation/` is a runnable independent experiment containing industrial simulation, item/fluid transfers, quest primitives, transactional storage, cubic streaming, budgeted GPU resources and a native inspection viewer. The world/rendering modules are integration experiments pending adoption into the engine; they are not permanent GTNH-only engine requirements. `bridges/horizon_machine.rs` is the separately verified Horizon adapter experiment from which the packaged reference compressor bridge was developed.
 
 The current recipes/tasks in the lab are synthetic. Six separately labeled compressor parameter fixtures record source-declared facts, not complete registered-recipe parity. `reference/gtnh-2.9.0/mods.json` retains all 243 pinned manifest entries with explicit unfinished status. No upstream mod is silently dropped.
 
-[Native bundle packaging](docs/native-bundle-proof.md) now carries the industrial and quest libraries through Horizon's existing `.hnmod` system. The real Windows launcher built and installed two independent test mods, and both hooks ran in a fresh offscreen world with a clean shutdown and unchanged final inputs. This verifies library packaging and hook composition; compressor gameplay and complete pack parity remain unfinished.
+[Native bundle packaging](docs/native-bundle-proof.md) now carries the industrial and quest libraries through Horizon's existing `.hnmod` system. The real Windows launcher built and installed two independent test mods, and both hooks ran in a fresh offscreen world with a clean shutdown and unchanged final inputs. This verifies library packaging and hook composition; complete pack parity remains unfinished.
+
+The [reference compressor prototype](docs/reference-compressor.md) now also runs through Horizon's normal native/content mod boundary. Its six declared recipes passed real menu transfers, exact test-energy accounting, server chunk unload/resume, repeated world saves/reopens, blocked output, and bounded hopper checks. This is a verified processing slice with explicitly supplied test power; the full GTNH machine and progression systems remain unfinished.
 
 ## Run the library checks
 
