@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "provenance": "Synthetic architecture fixture. Recipe quantities/times are not GTNH parity claims.",
+  "resources": [
+    {"id": "lab:iron_ore", "kind": "item"},
+    {"id": "lab:iron_dust", "kind": "item"},
+    {"id": "lab:iron_ingot", "kind": "item"},
+    {"id": "lab:water", "kind": "fluid"},
+    {"id": "lab:steam", "kind": "fluid"},
+    {"id": "lab:reward_token", "kind": "item"}
+  ],
+  "recipes": [
+    {
+      "id": "lab:crush_iron", "machine": "lab:crusher",
+      "duration_ticks": 5, "eu_per_tick": 8,
+      "inputs": [{"resource": "lab:iron_ore", "quantity": 1}],
+      "outputs": [{"resource": "lab:iron_dust", "quantity": 2}]
+    },
+    {
+      "id": "lab:smelt_iron", "machine": "lab:smelter",
+      "duration_ticks": 7, "eu_per_tick": 16,
+      "inputs": [{"resource": "lab:iron_dust", "quantity": 2}],
+      "outputs": [{"resource": "lab:iron_ingot", "quantity": 1}]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": "5.09.54.264",
+  "commit": "cec0f968ed521d4c9d8631667fa7f4f72b836941",
+  "reported_license": "LGPL-3.0",
+  "purpose": "behavioral inspection only; no source translation",
+  "verified_license_reference": {
+    "path": "LICENSE.txt",
+    "git_blob_sha": "0a041280bd00a9d068f503b8ee7ce35214bd24a1",
+    "url": "https://github.com/GTNewHorizons/GT5-Unofficial/blob/cec0f968ed521d4c9d8631667fa7f4f72b836941/LICENSE.txt",
+    "verified_text": "GNU LESSER GENERAL PUBLIC LICENSE, Version 3, 29 June 2007"
+  },
+  "files": [
+    {
+      "path": "src/main/java/gregtech/api/enums/GTValues.java",
+      "git_blob_sha": "7dad72041e1c3b46f71a285ff9f0fdd78a4769aa",
+      "sha256": "58f8dc56e15d03689632aec9c6e8494c795aaa0c8dd54975a2cbd111969aaa16",
+      "url": "https://raw.githubusercontent.com/GTNewHorizons/GT5-Unofficial/cec0f968ed521d4c9d8631667fa7f4f72b836941/src/main/java/gregtech/api/enums/GTValues.java"
+    },
+    {
+      "path": "src/main/java/gregtech/loaders/oreprocessing/ProcessingDust.java",
+      "git_blob_sha": "0514ec618693b895a2f68b3433b3ea5e7da5f127",
+      "sha256": "6875805bf3aa7f9ab80a56f55d48589b196f05527ba95983f22c986a74903d22",
+      "url": "https://raw.githubusercontent.com/GTNewHorizons/GT5-Unofficial/cec0f968ed521d4c9d8631667fa7f4f72b836941/src/main/java/gregtech/loaders/oreprocessing/ProcessingDust.java"
+    },
+    {
+      "path": "src/main/java/gregtech/loaders/postload/recipes/CompressorRecipes.java",
+      "git_blob_sha": "b01459da2a2b52c309b33532e3411677ae661118",
+      "sha256": "8c2eb681c316591206bd5877f276d73392bc3ef6b5ea1d7867aa0744443c6eda",
+      "url": "https://raw.githubusercontent.com/GTNewHorizons/GT5-Unofficial/cec0f968ed521d4c9d8631667fa7f4f72b836941/src/main/java/gregtech/loaders/postload/recipes/CompressorRecipes.java"
+    },
+    {
+      "path": "src/main/java/gregtech/api/util/GTRecipeBuilder.java",
+      "git_blob_sha": "6c44aa79f19acf8a2b6aceefd29d99234cd92087",
+      "sha256": "b28f3f0ea2072c34eba649688618f0a55cb172f6ad9d1b7c465832fa2b751efe",
+      "url": "https://raw.githubusercontent.com/GTNewHorizons/GT5-Unofficial/cec0f968ed521d4c9d8631667fa7f4f72b836941/src/main/java/gregtech/api/util/GTRecipeBuilder.java"
+    }
+  ]
+}

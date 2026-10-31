@@ -1,0 +1,6 @@
+.local/
+**/target/
+__pycache__/
+evidence/
+*.exe
+*.pdb

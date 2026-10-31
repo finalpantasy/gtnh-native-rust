@@ -1,0 +1,29 @@
+//! Reusable native laboratory systems. Fixtures are synthetic; engine adoption remains separate.
+pub mod asset_stress;
+pub mod automated_factory;
+pub mod collision_scene;
+pub mod cube_stress;
+pub mod factory;
+#[cfg(feature = "gpu")]
+pub mod gpu;
+#[cfg(feature = "gpu")]
+pub mod gpu_assets;
+pub mod item_oracle;
+pub mod journal_probe;
+pub mod logistics;
+#[cfg(feature = "gpu")]
+pub mod mesh_scene;
+pub mod quest_factory;
+pub mod quest_oracle;
+pub mod recipe_bench;
+pub mod recipe_reference;
+pub mod retrieval_oracle;
+pub mod retrieval_world;
+pub mod session;
+#[cfg(feature = "paged")]
+pub mod storage_bench;
+#[cfg(any(feature = "gpu", test))]
+pub mod voxel_mesh;
+#[cfg(feature = "gpu")]
+pub mod world_scene;
+pub mod world_storage;

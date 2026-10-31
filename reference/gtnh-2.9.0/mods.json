@@ -1,0 +1,1951 @@
+{
+  "version": "2.9.0",
+  "manifest_commit": "2fd7dfbe3315713495747b8f4d305bdbc6bab019",
+  "scope": "All 243 manifest entries; includes client, common and server features. Runtime observation is not port completion.",
+  "mods": [
+    {
+      "name": "Advanced Solar Panel For 1.7.10 (Unofficial)",
+      "version": "1.7.10 Edition",
+      "filename": "AdvancedSolarPanel-1.7.10-3.5.1.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "AdventureBackpack2",
+      "version": "1.4.28-GTNH",
+      "filename": "adventurebackpack-1.4.28-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "AE2FluidCraft-Rework",
+      "version": "1.5.116-gtnh",
+      "filename": "ae2fc-1.5.116-gtnh.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "AFSU",
+      "version": "1.3.2-GTNH",
+      "filename": "AFSU-1.3.2-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "AkashicTome",
+      "version": "1.2.7",
+      "filename": "akashictome-1.2.7.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "AlchemyGrate",
+      "version": "1.3.2-GTNH",
+      "filename": "alchgrate-1.3.2-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Amazing-Trophies",
+      "version": "1.4.10",
+      "filename": "amazingtrophies-1.4.10.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "amunra",
+      "version": "0.8.14",
+      "filename": "AmunRa-GC-0.8.14.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Angelica",
+      "version": "2.2.42",
+      "filename": "angelica-2.2.42.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "AngerMod",
+      "version": "1.0.7",
+      "filename": "AngerMod-1.0.7.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "AppleCore",
+      "version": "3.3.13",
+      "filename": "AppleCore-3.3.13.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Applied-Energistics-2-Unofficial",
+      "version": "rv3-beta-1095-GTNH",
+      "filename": "appliedenergistics2-rv3-beta-1095-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Archaicfix",
+      "version": "0.8.2",
+      "filename": "archaicfix-0.8.2.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "ArchitectureCraft",
+      "version": "1.12.19",
+      "filename": "ArchitectureCraft-1.12.19.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "AsieLib",
+      "version": "0.7.2",
+      "filename": "AsieLib-0.7.2.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "AspectRecipeIndex",
+      "version": "1.1.6",
+      "filename": "aspectrecipeindex-1.1.6.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Automagy-GTNH",
+      "version": "0.29.8-GTNH",
+      "filename": "Automagy-0.29.8-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Avaritia",
+      "version": "1.100",
+      "filename": "Avaritia-1.100.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Avaritiaddons",
+      "version": "1.9.6-GTNH",
+      "filename": "Avaritiaddons-1.9.6-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Backhand",
+      "version": "1.8.18",
+      "filename": "backhand-1.8.18.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Battlegear2-for-Backhand",
+      "version": "1.6.8-backhand",
+      "filename": "battlegear2-1.6.8-backhand.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Baubles-Expanded",
+      "version": "2.2.27-GTNH",
+      "filename": "BaublesExpanded-2.2.27-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "bdlib",
+      "version": "1.11.1-GTNH",
+      "filename": "bdlib-1.11.1-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "BeeBetterAtBees-GTNH",
+      "version": "0.4.8-GTNH",
+      "filename": "beebetteratbees-0.4.8-GTNH.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "BetterAchievements",
+      "version": "0.3.3",
+      "filename": "BetterAchievements-0.3.3.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "BetterBuildersWands",
+      "version": "0.13.12-GTNH",
+      "filename": "BetterBuildersWands-0.13.12-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "BetterCrashes",
+      "version": "1.4.7-GTNH",
+      "filename": "bettercrashes-1.4.7-GTNH.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "BetterLoadingScreen",
+      "version": "1.7.19-GTNH",
+      "filename": "betterloadingscreen-1.7.19-GTNH.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "BetterP2P",
+      "version": "1.4.8",
+      "filename": "betterp2p-1.4.8.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "BetterQuesting",
+      "version": "3.8.92-GTNH",
+      "filename": "BetterQuesting-3.8.92-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "BiblioCraft",
+      "version": "1.11.7",
+      "filename": "BiblioCraft[v1.11.7][MC1.7.10].jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "BiblioCraft: BiblioWoods Biomes O'Plenty Edition",
+      "version": "1.9",
+      "filename": "BiblioWoods[BiomesOPlenty][v1.9].jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "BiblioCraft: BiblioWoods Forestry Edition",
+      "version": "1.7",
+      "filename": "BiblioWoods[Forestry][v1.7].jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "BiblioCraft: BiblioWoods Natura Edition",
+      "version": "1.5",
+      "filename": "BiblioWoods[Natura][v1.5].jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Binnie",
+      "version": "2.6.51",
+      "filename": "binnie-mods-2.6.51.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Biomes O' Plenty",
+      "version": "2.1.0.2308",
+      "filename": "BiomesOPlenty-1.7.10-2.1.0.2308-universal.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "BlockLimiter",
+      "version": "0.7.0",
+      "filename": "BlockLimiter-0.7.0.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "BlockRenderer6343",
+      "version": "1.4.25",
+      "filename": "blockrenderer6343-1.4.25.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "BloodArsenal",
+      "version": "1.5.12",
+      "filename": "BloodArsenal-1.5.12.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "BloodMagic",
+      "version": "1.9.16",
+      "filename": "BloodMagic-1.9.16.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Botania",
+      "version": "1.13.42-GTNH",
+      "filename": "Botania-1.13.42-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Botanic-horizons",
+      "version": "1.12.10-GTNH",
+      "filename": "BotanicHorizons-1.12.10-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Bug-Torch",
+      "version": "1.3.1",
+      "filename": "bugtorch-1.3.1.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "BuildCraft",
+      "version": "7.1.65",
+      "filename": "buildcraft-7.1.65.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "BuildCraftCompat",
+      "version": "7.1.22",
+      "filename": "buildcraft-compat-7.1.22.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "BuildCraftOilTweak",
+      "version": "1.1.3",
+      "filename": "BuildCraftOilTweak-1.1.3.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "CarpentersBlocks",
+      "version": "3.7.3-GTNH",
+      "filename": "CarpentersBlocks-3.7.3-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Catwalks-2",
+      "version": "2.4.2-GTNH",
+      "filename": "catwalks-2.4.2-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Chisel",
+      "version": "2.17.34-GTNH",
+      "filename": "chisel-2.17.34-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "ChiselTones",
+      "version": "1.2.0-GTNH",
+      "filename": "chiseltones-1.2.0-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "ChromaticTooltips",
+      "version": "1.0.36-GTNH",
+      "filename": "chromatictooltips-1.0.36-GTNH.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "ChromaticTooltipsCompat",
+      "version": "1.0.40-GTNH",
+      "filename": "chromatictooltipscompat-1.0.40-GTNH.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Chunk API",
+      "version": "0.8.4",
+      "filename": "chunkapi-mc1.7.10-0.8.4.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "CodeChickenCore",
+      "version": "1.4.22",
+      "filename": "CodeChickenCore-1.4.22.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "CoFH Core",
+      "version": "3.1.4-329",
+      "filename": "CoFHCore-[1.7.10]3.1.4-329.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Compact Kinetic Generators",
+      "version": "1.0",
+      "filename": "CompactKineticGenerators-1.7.10-1.0.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Computronics",
+      "version": "1.9.13-GTNH",
+      "filename": "Computronics-1.9.13-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Controlling",
+      "version": "2.1.10",
+      "filename": "controlling-2.1.10.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "CookingForBlockheads",
+      "version": "1.4.14-GTNH",
+      "filename": "CookingForBlockheads-1.4.14-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "CoreTweaks",
+      "version": "0.3.4.7-GTNH",
+      "filename": "coretweaks-0.3.4.7-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "CosmeticArmorReworked",
+      "version": "1.0.7-GTNH",
+      "filename": "cosmeticarmorreworked-1.0.7-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Craft-Presence",
+      "version": "2.7.1",
+      "filename": "CraftPresence-2.7.1+1.7.10-forge.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "CraftTweaker",
+      "version": "3.4.8",
+      "filename": "CraftTweaker-3.4.8.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "CropsNH",
+      "version": "2.0.140",
+      "filename": "cropsnh-2.0.140.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Custom-Main-Menu",
+      "version": "1.14.1",
+      "filename": "custommainmenu-1.14.1.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Darkerer",
+      "version": "1.1.0",
+      "filename": "darkerer-1.1.0.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Default-Configs",
+      "version": "1.3.4",
+      "filename": "defaultkeys-1.3.4.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "DefaultServerList",
+      "version": "1.7.4",
+      "filename": "defaultserverlist-1.7.4.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "DefaultWorldGenerator",
+      "version": "0.5.0",
+      "filename": "defaultworldgenerator-0.5.0.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Draconic-Evolution",
+      "version": "1.5.35-GTNH",
+      "filename": "Draconic-Evolution-1.5.35-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "DummyCore",
+      "version": "1.21.0",
+      "filename": "DummyCore-1.21.0.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "DuraDisplay",
+      "version": "1.4.7",
+      "filename": "duradisplay-1.4.7.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Electro-Magic-Tools",
+      "version": "1.7.25",
+      "filename": "EMT-1.7.25.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "EnderCore",
+      "version": "0.5.15",
+      "filename": "endercore-0.5.15.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "EnderIO",
+      "version": "2.10.51",
+      "filename": "EnderIO-2.10.51.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "EnderStorage",
+      "version": "1.8.9",
+      "filename": "EnderStorage-1.8.9.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "EnderZoo",
+      "version": "1.3.6",
+      "filename": "EnderZoo-1.3.6.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "EndlessIDs",
+      "version": "1.7.4",
+      "filename": "endlessids-mc1.7.10-1.7.4.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "EnhancedLootBags",
+      "version": "1.3.5",
+      "filename": "EnhancedLootBags-1.3.5.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Et-Futurum-Requiem",
+      "version": "2.6.65-GTNH",
+      "filename": "etfuturum-2.6.65-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Eternal-Singularity",
+      "version": "1.4.3",
+      "filename": "eternalsingularity-1.4.3.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Extra Utilities",
+      "version": "1.2.12",
+      "filename": "extrautilities-1.2.12.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Extreme Sound Muffler",
+      "version": "1.1.1",
+      "filename": "esm-legacy-1.7.10-1.1.1.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "FalsepatternLib",
+      "version": "1.12.2",
+      "filename": "falsepatternlib-mc1.7.10-1.12.2.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Fether",
+      "version": "2.0.9",
+      "filename": "fether-2.0.9.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "FindIt",
+      "version": "1.4.8",
+      "filename": "findit-1.4.8.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "FloodLights",
+      "version": "1.5.6",
+      "filename": "FloodLights-1.5.6.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "ForbiddenMagic",
+      "version": "0.9.18-GTNH",
+      "filename": "Forbidden.Magic-0.9.18-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "ForestryMC",
+      "version": "4.11.40",
+      "filename": "Forestry-4.11.40.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Forgelin",
+      "version": "2.0.3-GTNH",
+      "filename": "forgelin-2.0.3-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "ForgeMultipart",
+      "version": "1.7.18",
+      "filename": "ForgeMultipart-1.7.18.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "ForgeRelocation",
+      "version": "0.3.7",
+      "filename": "ForgeRelocation-0.3.7.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "ForgeRelocationFMP",
+      "version": "0.2.0",
+      "filename": "ForgeRelocationFMP-0.2.0.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Freecam",
+      "version": "1.0.12",
+      "filename": "freecam-gtnh-1.0.12.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Gadomancy",
+      "version": "1.5.17",
+      "filename": "gadomancy-1.5.17.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Galacticraft",
+      "version": "3.4.37-GTNH",
+      "filename": "Galacticraft-3.4.37-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Galaxy-Space-GTNH",
+      "version": "1.1.144-GTNH",
+      "filename": "GalaxySpace-1.1.144-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "gendustry",
+      "version": "1.9.13-GTNH",
+      "filename": "gendustry-1.9.13-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Gravitation-Suite-Neo",
+      "version": "1.3.16",
+      "filename": "gravisuiteneo-1.3.16.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Gravitation-Suite-old",
+      "version": "2.0.3",
+      "filename": "GraviSuite-1.7.10-2.0.3.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "GregoryTweaksForCrafting",
+      "version": "1.0.3",
+      "filename": "craftingtweaks-1.0.3.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "GT5-Unofficial",
+      "version": "5.09.54.264",
+      "filename": "gregtech-5.09.54.264.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "GTNH-Credits",
+      "version": "1.4.0",
+      "filename": "gtnhcredits-1.4.0.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "GTNH-TC-Wands",
+      "version": "1.4.14",
+      "filename": "GTNH-TC-Wands-1.4.14.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "GTNHExtLib",
+      "version": "1.0.5",
+      "filename": "gtnhextlib-1.0.5.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "GTNHLib",
+      "version": "0.11.54",
+      "filename": "gtnhlib-0.11.54.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "GuideNH",
+      "version": "1.3.54",
+      "filename": "guidenh-1.3.54.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Hardcore-Ender-Expansion",
+      "version": "1.12.29-GTNH",
+      "filename": "HardcoreEnderExpansion-1.12.29-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "harvestcraft",
+      "version": "1.3.15-GTNH",
+      "filename": "harvestcraft-1.3.15-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Healer",
+      "version": "1.2.1",
+      "filename": "Healer-1.2.1.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "HelpFixer",
+      "version": "1.3.2",
+      "filename": "HelpFixer-1.3.2.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Hodgepodge",
+      "version": "2.7.221",
+      "filename": "hodgepodge-2.7.221.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "HoloInventory",
+      "version": "2.5.18-GTNH",
+      "filename": "holoinventory-2.5.18-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Hunger-Overhaul",
+      "version": "1.0.0.104",
+      "filename": "HungerOverhaul-1.7.10-1.0.0.jenkins104.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "HydroEnergy",
+      "version": "1.4.26",
+      "filename": "hydroenergy-1.4.26.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "IFU",
+      "version": "1.12.4",
+      "filename": "ifu-1.12.4.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "IguanaTweaksTConstruct",
+      "version": "2.7.15",
+      "filename": "IguanaTweaksTConstruct-2.7.15.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Industrial Craft 2",
+      "version": "2.2.2.828",
+      "filename": "industrialcraft-2-2.2.828-experimental.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Infernal-Mobs",
+      "version": "1.10.7-GTNH",
+      "filename": "InfernalMobs-1.10.7-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "InGame-Info-XML",
+      "version": "2.9.8",
+      "filename": "InGameInfoXML-2.9.8.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "InventoryBogoSorter",
+      "version": "1.3.55-GTNH",
+      "filename": "bogosorter-1.3.55-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "ironchest",
+      "version": "6.1.13",
+      "filename": "IronChest-6.1.13.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "IronChestMinecarts",
+      "version": "1.2.1",
+      "filename": "IronChestMinecarts-1.2.1.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "IronTankMinecarts",
+      "version": "1.0.12",
+      "filename": "irontankminecarts-1.0.12.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Irontanks",
+      "version": "1.4.7",
+      "filename": "irontanks-1.4.7.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Jabba",
+      "version": "1.5.24",
+      "filename": "JABBA-1.5.24.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "JarJar",
+      "version": "0.3.7-beta",
+      "filename": "jarjar-0.3.7-beta.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "JourneyMap",
+      "version": "5.2.23-fairplay",
+      "filename": "journeymap-1.7.10-5.2.23-fairplay.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "JourneyMap Server",
+      "version": "1.0.5",
+      "filename": "JourneyMapServer1.0.5_MC1.7.10.jar",
+      "side": "SERVER",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "LittleTiles",
+      "version": "1.6.63",
+      "filename": "littletiles-1.6.63.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "LogisticsPipes",
+      "version": "1.5.39-GTNH",
+      "filename": "logisticspipes-1.5.39-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "LootGames",
+      "version": "2.2.14",
+      "filename": "lootgames-2.2.14.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "LunatriusCore",
+      "version": "1.2.1-GTNH",
+      "filename": "LunatriusCore-1.2.1-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "lwjgl3ify",
+      "version": "3.0.42",
+      "filename": "lwjgl3ify-3.0.42.jar",
+      "side": "BOTH_JAVA9",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "MagicBees",
+      "version": "2.10.13-GTNH",
+      "filename": "magicbees-2.10.13-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "MalisisDoors",
+      "version": "1.19.13-GTNH",
+      "filename": "malisisdoors-1.19.13-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Mantle",
+      "version": "0.5.4",
+      "filename": "Mantle-0.5.4.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "MatterManipulator",
+      "version": "0.1.75-GTNH",
+      "filename": "matter-manipulator-0.1.75-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Minecraft-Backpack-Mod",
+      "version": "2.6.18-GTNH",
+      "filename": "backpack-2.6.18-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Minetweaker-Gregtech-5-Addon",
+      "version": "2.3.4",
+      "filename": "GTTweaker-2.3.4.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Mobs Info",
+      "version": "0.6.2",
+      "filename": "mobsinfo-0.6.2.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "ModernMarkings",
+      "version": "0.3.13-1.7.10",
+      "filename": "modernmarkings-0.3.13-1.7.10.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "ModTweaker",
+      "version": "0.14.0",
+      "filename": "ModTweaker2-0.14.0.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "ModularUI",
+      "version": "1.3.4",
+      "filename": "modularui-1.3.4.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "ModularUI2",
+      "version": "2.3.94-1.7.10",
+      "filename": "modularui2-2.3.94-1.7.10.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "MouseTweaks",
+      "version": "2.5.4-GTNH",
+      "filename": "MouseTweaks-2.5.4-GTNH.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "MrTJPCore",
+      "version": "1.3.7",
+      "filename": "MrTJPCore-1.3.7.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Natura",
+      "version": "2.8.24",
+      "filename": "Natura-2.8.24.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "NaturesCompass",
+      "version": "1.5.2-GTNH",
+      "filename": "naturescompass-1.5.2-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Navigator",
+      "version": "1.1.10",
+      "filename": "navigator-1.1.10.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "nei-custom-diagram",
+      "version": "1.8.36",
+      "filename": "NEICustomDiagram-1.8.36.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "NEI-Integration",
+      "version": "1.5.3",
+      "filename": "NEIIntegration-1.5.3.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "neiaddons",
+      "version": "1.18.8",
+      "filename": "NEIAddons-1.18.8.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "NetherPortalFix",
+      "version": "1.4.0",
+      "filename": "netherportalfix-1.4.0.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "NewHorizonsCoreMod",
+      "version": "2.9.99",
+      "filename": "GTNewHorizonsCoreMod-2.9.99.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Nodal-Mechanics",
+      "version": "1.3.4-GTNH",
+      "filename": "NodalMechanics-1.3.4-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "NoHotbarNeeded",
+      "version": "0.0.6",
+      "filename": "nohotbarneeded-0.0.6.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "NotEnoughEnergistics",
+      "version": "1.7.50",
+      "filename": "NotEnoughEnergistics-1.7.50.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "NotEnoughItems",
+      "version": "2.8.171-GTNH",
+      "filename": "NotEnoughItems-2.8.171-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Nuclear-Control",
+      "version": "2.7.17",
+      "filename": "IC2NuclearControl-2.7.17.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Nutrition",
+      "version": "1.0.1",
+      "filename": "nutrition-1.0.1.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "oauth",
+      "version": "1.3.4-GTNH",
+      "filename": "oauth-1.3.4-GTNH.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "OCGlasses",
+      "version": "1.6.9-GTNH",
+      "filename": "OpenGlasses-1.6.9-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "OpenBlocks",
+      "version": "1.12.22-GTNH",
+      "filename": "OpenBlocks-1.12.22-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "OpenComputers",
+      "version": "1.12.67-GTNH",
+      "filename": "OpenComputers-1.12.67-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "OpenModsLib",
+      "version": "0.10.15",
+      "filename": "OpenModsLibs-0.10.15.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "OpenModularTurrets",
+      "version": "2.4.8",
+      "filename": "OpenModularTurrets-2.4.8.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "OpenPrinter",
+      "version": "0.3.1-GTNH",
+      "filename": "openprinter-0.3.1-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "OpenSecurity",
+      "version": "1.2.2-GTNH",
+      "filename": "opensecurity-1.2.2-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Opis",
+      "version": "1.4.12-mapless",
+      "filename": "Opis-1.4.12-mapless.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "OverloadedArmorBar",
+      "version": "1.1.1",
+      "filename": "overloadedarmorbar-1.1.1.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "PersonalSpace",
+      "version": "1.0.41",
+      "filename": "personalspace-1.0.41.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Player-API",
+      "version": "1.5.0",
+      "filename": "PlayerAPI-1.5.0.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Postea",
+      "version": "1.2.7",
+      "filename": "postea-1.2.7.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "ProjectBlue",
+      "version": "1.2.11-GTNH",
+      "filename": "ProjectBlue-1.2.11-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "ProjectRed",
+      "version": "4.12.50-GTNH",
+      "filename": "ProjRed-4.12.50-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Railcraft",
+      "version": "9.17.36",
+      "filename": "Railcraft-9.17.36.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Random-Things",
+      "version": "2.7.13",
+      "filename": "RandomThings-2.7.13.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "RandomBoubles",
+      "version": "1.1.7",
+      "filename": "randomboubles-1.1.7.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Realistic-World-Gen",
+      "version": "alpha-1.5.3",
+      "filename": "RWG-alpha-1.5.3.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Realistic-World-Gen-2",
+      "version": "2.0.3",
+      "filename": "rwg2-2.0.3.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "RemoteIO",
+      "version": "2.7.11",
+      "filename": "RemoteIO-2.7.11.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Roguelike-Dungeons",
+      "version": "1.6.6-GTNH",
+      "filename": "roguelike-1.6.6-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Salis Arcana",
+      "version": "2.7.0",
+      "filename": "salisarcana-v2.7.0.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "SC2",
+      "version": "2.3.15",
+      "filename": "StevesCarts-2.3.15.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Schematica",
+      "version": "1.12.6-GTNH",
+      "filename": "Schematica-1.12.6-GTNH.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "ServerUtilities",
+      "version": "2.4.22",
+      "filename": "ServerUtilities-2.4.22.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "SGCraft",
+      "version": "1.4.14-GTNH",
+      "filename": "SGCraft-1.4.14-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Share-Where-I-am",
+      "version": "2.1.11",
+      "filename": "sharewhereiam-2.1.11.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "SimpleSkinBackport",
+      "version": "1.0.5-GTNH",
+      "filename": "simpleskinbackport-1.0.5-GTNH.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "SleepingBags",
+      "version": "0.3.1",
+      "filename": "sleepingbag-0.3.1.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "SpecialMobs",
+      "version": "3.7.10",
+      "filename": "SpecialMobs-3.7.10.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "SpiceOfLife",
+      "version": "2.2.12-carrot",
+      "filename": "SpiceOfLife-2.2.12-carrot.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Steve-s-Factory-Manager",
+      "version": "1.3.13-GTNH",
+      "filename": "StevesFactoryManager-1.3.13-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "StevesAddons",
+      "version": "0.15.5",
+      "filename": "StevesAddons-0.15.5.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "StorageDrawers",
+      "version": "2.2.31-GTNH",
+      "filename": "StorageDrawers-2.2.31-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "StructureCompat",
+      "version": "0.7.5",
+      "filename": "structurecompat-0.7.5.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "StructureLib",
+      "version": "1.4.47",
+      "filename": "structurelib-1.4.47.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Super-TiC",
+      "version": "1.5.6",
+      "filename": "SuperTic-1.5.6.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "supersolarpanels",
+      "version": "1.1.5",
+      "filename": "supersolarpanel-1.1.5.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Tainted-Magic",
+      "version": "7.7.8-GTNH",
+      "filename": "Tainted-Magic-7.7.8-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "TC-4-Tweaks",
+      "version": "1.5.48",
+      "filename": "Thaumcraft4Tweaks-1.5.48.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "TCNodeTracker",
+      "version": "1.4.6",
+      "filename": "tcnodetracker-1.4.6.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Thaumcraft",
+      "version": "4.2.3.5",
+      "filename": "Thaumcraft-1.7.10-4.2.3.5.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "thaumcraft-research-tweaks",
+      "version": "1.4.1",
+      "filename": "ThaumcraftResearchTweaks-1.4.1.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "ThaumcraftMobAspects",
+      "version": "1.2.1-GTNH",
+      "filename": "ThaumcraftMobAspects-1.2.1-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Thaumic_Exploration",
+      "version": "1.5.29-GTNH",
+      "filename": "Thaumic-Exploration-1.5.29-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "ThaumicBases",
+      "version": "1.9.22",
+      "filename": "Thaumic-Based-1.9.22.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "ThaumicBoots",
+      "version": "1.5.13",
+      "filename": "thaumicboots-1.5.13.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "ThaumicEnergistics",
+      "version": "1.7.68-GTNH",
+      "filename": "thaumicenergistics-1.7.68-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "ThaumicHorizons",
+      "version": "1.8.28",
+      "filename": "ThaumicHorizons-1.8.28.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "thaumicinsurgence",
+      "version": "0.4.1",
+      "filename": "thaumicinsurgence-0.4.1.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "ThaumicMachina",
+      "version": "0.2.6-GTNH",
+      "filename": "ThaumicMachina-0.2.6-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "ThaumicTinkerer",
+      "version": "2.12.34",
+      "filename": "ThaumicTinkerer-2.12.34.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "TiC-Tooltips",
+      "version": "1.4.2",
+      "filename": "TiCTooltips-1.4.2.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Tinkers-Defense",
+      "version": "1.3.4",
+      "filename": "tinkersdefense-1.3.4.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Tinkers-Gregworks",
+      "version": "1.0.34",
+      "filename": "TGregworks-1.7.10-GTNH-1.0.34.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "TinkersConstruct",
+      "version": "1.14.123-GTNH",
+      "filename": "TConstruct-1.14.123-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "TinkersMechworks",
+      "version": "0.4.2",
+      "filename": "TMechworks-0.4.2.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "TooMuchLoot",
+      "version": "4.3.0-GTNH",
+      "filename": "TooMuchLoot-4.3.0-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "ToroHealth",
+      "version": "1.2.4",
+      "filename": "torohealth-1.2.4.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Translocators",
+      "version": "1.4.5",
+      "filename": "Translocator-1.4.5.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "twilightforest",
+      "version": "2.7.45",
+      "filename": "TwilightForest-2.7.45.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "TX-Loader",
+      "version": "1.9.1",
+      "filename": "txloader-1.9.1.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "UniLib",
+      "version": "1.2.1",
+      "filename": "UniLib-1.2.1+1.7.10-forge.jar",
+      "side": "CLIENT",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "UniMixins",
+      "version": "0.3.1",
+      "filename": "+unimixins-all-1.7.10-0.3.1.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Universal-Singularities",
+      "version": "8.15.4",
+      "filename": "Universal-Singularities-8.15.4.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "VendingMachine",
+      "version": "0.4.103",
+      "filename": "vendingmachine-0.4.103.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "VillageNames",
+      "version": "4.5.21-GTNH",
+      "filename": "VillageNames-4.5.21-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "VisualProspecting",
+      "version": "1.5.42",
+      "filename": "visualprospecting-1.5.42.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "waila",
+      "version": "1.19.34",
+      "filename": "Waila-1.19.34.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "WailaHarvestability",
+      "version": "1.3.6-GTNH",
+      "filename": "WailaHarvestability-1.3.6-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "WAILAPlugins",
+      "version": "0.7.2",
+      "filename": "WAILAPlugins-0.7.2.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "WanionLib",
+      "version": "1.10.1",
+      "filename": "WanionLib-1.10.1.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "WarpTheory",
+      "version": "1.5.8-GTNH",
+      "filename": "WarpTheory-1.5.8-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "WAWLA",
+      "version": "1.3.4-GTNH",
+      "filename": "Wawla-1.3.4-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "WirelessCraftingTerminal",
+      "version": "1.12.17",
+      "filename": "WirelessCraftingTerminal-1.12.17.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "WirelessRedstone-CBE",
+      "version": "1.7.12",
+      "filename": "WR-CBE-1.7.12.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Witchery",
+      "version": "0.24.1",
+      "filename": "witchery-1.7.10-0.24.1.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "WitcheryExtras",
+      "version": "1.4.20",
+      "filename": "WitcheryExtras-1.4.20.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "WitchingGadgets",
+      "version": "1.8.52-GTNH",
+      "filename": "WitchingGadgets-1.8.52-GTNH.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Yamcl",
+      "version": "0.7.5",
+      "filename": "YAMCore-0.7.5.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    },
+    {
+      "name": "Ztones",
+      "version": "2.2.2",
+      "filename": "Ztones-1.7.10-2.2.2.jar",
+      "side": "BOTH",
+      "rust_port": "NOT_PORTED",
+      "runtime_parity": "NOT_RUN"
+    }
+  ]
+}

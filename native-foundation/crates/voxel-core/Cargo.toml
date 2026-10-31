@@ -1,0 +1,15 @@
+[package]
+name = "voxel-core"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+redb = { version = "=4.4.0", optional = true }
+
+[features]
+paged = ["dep:redb"]
+
+[lints]
+workspace = true

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "quests": [
+    {
+      "id": "00000000000000000000000000000001",
+      "prerequisites": [], "logic": "AND", "task_logic": "AND",
+      "tasks": [{"id": 0, "goal": 1, "optional": false}]
+    },
+    {
+      "id": "00000000000000000000000000000002",
+      "prerequisites": ["00000000000000000000000000000001"],
+      "logic": "AND", "task_logic": "AND",
+      "tasks": [{"id": 0, "goal": 12, "optional": false}]
+    }
+  ]
+}

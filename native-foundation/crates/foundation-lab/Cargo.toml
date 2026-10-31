@@ -1,0 +1,26 @@
+[package]
+name = "foundation-lab"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+voxel-core = { path = "../voxel-core" }
+residency = { path = "../residency" }
+industrial-sim = { path = "../industrial-sim" }
+quest-core = { path = "../quest-core" }
+serde_json = "=1.0.151"
+serde = { version = "1", features = ["derive"] }
+sha2 = "=0.10.9"
+wgpu = { version = "=30.0.1", optional = true, default-features = false, features = ["std", "parking_lot", "vulkan", "dx12", "wgsl"] }
+pollster = { version = "=0.4.0", optional = true }
+png = { version = "0.18", optional = true }
+glam = { version = "=0.30.10", optional = true }
+
+[features]
+gpu = ["dep:wgpu", "dep:pollster", "dep:png", "dep:glam"]
+paged = ["voxel-core/paged"]
+
+[lints]
+workspace = true

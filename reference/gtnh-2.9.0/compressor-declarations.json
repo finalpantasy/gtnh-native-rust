@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "reference": "GT5-Unofficial 5.09.54.264 (provisional GTNH 2.9.0 reference)",
+  "commit": "cec0f968ed521d4c9d8631667fa7f4f72b836941",
+  "source_license": "LGPL-3.0; verified pinned LICENSE.txt; source not translated into engine",
+  "source_path": "src/main/java/gregtech/loaders/postload/recipes/CompressorRecipes.java",
+  "source_sha256": "8c2eb681c316591206bd5877f276d73392bc3ef6b5ea1d7867aa0744443c6eda",
+  "builder_path": "src/main/java/gregtech/api/util/GTRecipeBuilder.java",
+  "builder_sha256": "b28f3f0ea2072c34eba649688618f0a55cb172f6ad9d1b7c465832fa2b751efe",
+  "content_sha256": "677326f37097689f37652a247d6b172f6881159b5f6f3860d2cb63ae9c12d456",
+  "selected_declarations": 6,
+  "declarations": [
+    {
+      "input_symbol": "Blocks.sand",
+      "output_symbol": "Blocks.sandstone",
+      "input_quantity": 4,
+      "output_quantity": 1,
+      "duration_ticks": 300,
+      "eu_per_tick": 2,
+      "source_start_line": 69,
+      "source_end_line": 74
+    },
+    {
+      "input_symbol": "Items.clay_ball",
+      "output_symbol": "Blocks.clay",
+      "input_quantity": 4,
+      "output_quantity": 1,
+      "duration_ticks": 300,
+      "eu_per_tick": 2,
+      "source_start_line": 83,
+      "source_end_line": 88
+    },
+    {
+      "input_symbol": "Items.brick",
+      "output_symbol": "Blocks.brick_block",
+      "input_quantity": 4,
+      "output_quantity": 1,
+      "duration_ticks": 300,
+      "eu_per_tick": 2,
+      "source_start_line": 90,
+      "source_end_line": 95
+    },
+    {
+      "input_symbol": "Items.netherbrick",
+      "output_symbol": "Blocks.nether_brick",
+      "input_quantity": 4,
+      "output_quantity": 1,
+      "duration_ticks": 300,
+      "eu_per_tick": 2,
+      "source_start_line": 97,
+      "source_end_line": 102
+    },
+    {
+      "input_symbol": "Items.snowball",
+      "output_symbol": "Blocks.snow",
+      "input_quantity": 4,
+      "output_quantity": 1,
+      "duration_ticks": 300,
+      "eu_per_tick": 2,
+      "source_start_line": 125,
+      "source_end_line": 130
+    },
+    {
+      "input_symbol": "Blocks.snow",
+      "output_symbol": "Blocks.ice",
+      "input_quantity": 1,
+      "output_quantity": 1,
+      "duration_ticks": 300,
+      "eu_per_tick": 2,
+      "source_start_line": 139,
+      "source_end_line": 144
+    }
+  ],
+  "scope": "Literal unconditional source-declaration facts. Explicit source-symbol aliases, not registry identities. Excludes containers, ore/wildcard/NBT/fluid/machine metadata and post-registration changes."
+}

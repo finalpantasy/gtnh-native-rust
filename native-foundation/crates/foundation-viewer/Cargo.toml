@@ -1,0 +1,29 @@
+[package]
+name = "foundation-viewer"
+version.workspace = true
+edition.workspace = true
+rust-version = "1.95"
+license.workspace = true
+
+[[bin]]
+name = "foundation-viewer"
+path = "src/main.rs"
+required-features = ["desktop"]
+
+[dependencies]
+voxel-core = { path = "../voxel-core" }
+glam = "=0.30.10"
+foundation-lab = { path = "../foundation-lab", features = ["gpu", "paged"], optional = true }
+winit = { version = "=0.30.13", optional = true }
+wgpu = { version = "=30.0.1", optional = true, default-features = false, features = ["std", "parking_lot", "vulkan", "dx12", "wgsl"] }
+egui = { version = "=0.37.0", optional = true, features = ["default_fonts"] }
+egui-winit = { version = "=0.37.0", optional = true, default-features = false }
+egui-wgpu = { version = "=0.37.0", optional = true, default-features = false }
+pollster = { version = "=0.4.0", optional = true }
+serde_json = { version = "=1.0.151", optional = true }
+
+[features]
+desktop = ["dep:foundation-lab", "dep:winit", "dep:wgpu", "dep:egui", "dep:egui-winit", "dep:egui-wgpu", "dep:pollster", "dep:serde_json"]
+
+[lints]
+workspace = true
