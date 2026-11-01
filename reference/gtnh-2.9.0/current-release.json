@@ -1,7 +1,7 @@
 {
   "reference_version": "GTNH 2.9.0 stable",
   "checked_date": "2026-11-01",
-  "status": "STATIC_REFERENCE_VERIFIED_RUNTIME_REVALIDATION_PENDING",
+  "status": "CURRENT_REFERENCE_COMPRESSOR_ORACLE_VERIFIED",
   "manifest": {
     "repository": "https://github.com/GTNewHorizons/DreamAssemblerXXL",
     "commit": "e641ce1ecfca878a1c89b8d9566b67927da8c134",
@@ -26,7 +26,7 @@
     "template_files": 7,
     "instance_files": 9440,
     "all_copied_file_hashes_verified": true,
-    "runtime": "NOT_RUN"
+    "runtime_at_assembly": "NOT_RUN"
   },
   "gregtech": {
     "version": "5.09.54.265",
@@ -47,6 +47,31 @@
     "gregtech": "5.09.54.264",
     "scope": "Existing stage counts, recipe declarations, 1204-row compressor comparison and 1226-row installed save proof retain their recorded inputs. They are not relabeled as current-release verification."
   },
+  "current_compressor_oracle": {
+    "gregtech_version_confirmed_in_process": "5.09.54.265",
+    "report_sha256": "eae6d3886afb8bced4ed5ae5bf40f0977dd7db463f135f3ff40dc9141e1d0b27",
+    "trajectory_sha256": "ce26af29413157e35e6f3ce2226047d4b6fc48eaed906b5c3bed7cecb5a7e4e7",
+    "samples": 1204,
+    "numeric_fields_per_sample": 8,
+    "scenarios": [
+      {"name": "nominal", "samples": 321, "supplied_eu": 600, "spent_eu": 600, "powered_ticks": 300, "cooldown_ticks": 0},
+      {"name": "shortage", "samples": 550, "supplied_eu": 856, "spent_eu": 856, "powered_ticks": 428, "cooldown_ticks": 100},
+      {"name": "blocked_output", "samples": 333, "supplied_eu": 600, "spent_eu": 600, "powered_ticks": 300, "cooldown_ticks": 0}
+    ],
+    "each_scenario_consumed_sand": 4,
+    "each_scenario_produced_sandstone": 1,
+    "fixture_output_accounted_separately": true,
+    "historical_numeric_fixture_sha256": "9bd96947d847013047f08f2e92f182e874dd695a1a5412a70024020fc8f22374",
+    "normalized_numeric_sha256": "056c99458baf65896b8e46c85d3f33f2ccfc9a8c2f9d5dfda6086fdf07224843",
+    "exact_same_integer_samples_initial_states_and_fixture_actions": true,
+    "independent_raw_accounting_review": "PASS",
+    "diagnostics": 0,
+    "exit_code": 0,
+    "forced_tree_termination": false,
+    "seconds": 348.473,
+    "native_executable_rerun": false,
+    "scope": "Actual Java server-API compressor observations with explicit fixture inventory/energy. No GUI input, save/reopen, electrical-network, multiplayer, other-recipe or whole-pack parity claim."
+  },
   "checksum_scope": "The configuration checksum is published upstream. The mod JAR hash records the exact downloaded artifact and is not presented as an independently published checksum.",
-  "limits": "Reference assembly only. Current-release runtime replay, complete native mod ports and whole-pack parity remain unfinished. No game binaries, assets, archives, private worlds or raw exports are included."
+  "limits": "Current reference assembly and three bounded Java compressor scenarios are verified. Complete native mod ports, production networks, current-reference saves and whole-pack parity remain unfinished. No game binaries, assets, archives, private worlds or raw exports are included."
 }
