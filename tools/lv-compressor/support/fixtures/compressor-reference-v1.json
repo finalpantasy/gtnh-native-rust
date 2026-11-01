@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "provenance": "GT5-Unofficial 5.09.54.264 source declarations at cec0f968ed521d4c9d8631667fa7f4f72b836941. Explicit internal source-symbol aliases; no runtime recipe-registry or GTNH machine parity claim.",
+  "resources": [
+    {
+      "id": "reference:block_brick_block",
+      "kind": "item"
+    },
+    {
+      "id": "reference:block_clay",
+      "kind": "item"
+    },
+    {
+      "id": "reference:block_ice",
+      "kind": "item"
+    },
+    {
+      "id": "reference:block_nether_brick",
+      "kind": "item"
+    },
+    {
+      "id": "reference:block_sand",
+      "kind": "item"
+    },
+    {
+      "id": "reference:block_sandstone",
+      "kind": "item"
+    },
+    {
+      "id": "reference:block_snow",
+      "kind": "item"
+    },
+    {
+      "id": "reference:item_brick",
+      "kind": "item"
+    },
+    {
+      "id": "reference:item_clay_ball",
+      "kind": "item"
+    },
+    {
+      "id": "reference:item_netherbrick",
+      "kind": "item"
+    },
+    {
+      "id": "reference:item_snowball",
+      "kind": "item"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "reference:compress_block_sand",
+      "machine": "reference:compressor",
+      "duration_ticks": 300,
+      "eu_per_tick": 2,
+      "inputs": [
+        {
+          "resource": "reference:block_sand",
+          "quantity": 4
+        }
+      ],
+      "outputs": [
+        {
+          "resource": "reference:block_sandstone",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "reference:compress_item_clay_ball",
+      "machine": "reference:compressor",
+      "duration_ticks": 300,
+      "eu_per_tick": 2,
+      "inputs": [
+        {
+          "resource": "reference:item_clay_ball",
+          "quantity": 4
+        }
+      ],
+      "outputs": [
+        {
+          "resource": "reference:block_clay",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "reference:compress_item_brick",
+      "machine": "reference:compressor",
+      "duration_ticks": 300,
+      "eu_per_tick": 2,
+      "inputs": [
+        {
+          "resource": "reference:item_brick",
+          "quantity": 4
+        }
+      ],
+      "outputs": [
+        {
+          "resource": "reference:block_brick_block",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "reference:compress_item_netherbrick",
+      "machine": "reference:compressor",
+      "duration_ticks": 300,
+      "eu_per_tick": 2,
+      "inputs": [
+        {
+          "resource": "reference:item_netherbrick",
+          "quantity": 4
+        }
+      ],
+      "outputs": [
+        {
+          "resource": "reference:block_nether_brick",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "reference:compress_item_snowball",
+      "machine": "reference:compressor",
+      "duration_ticks": 300,
+      "eu_per_tick": 2,
+      "inputs": [
+        {
+          "resource": "reference:item_snowball",
+          "quantity": 4
+        }
+      ],
+      "outputs": [
+        {
+          "resource": "reference:block_snow",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "reference:compress_block_snow",
+      "machine": "reference:compressor",
+      "duration_ticks": 300,
+      "eu_per_tick": 2,
+      "inputs": [
+        {
+          "resource": "reference:block_snow",
+          "quantity": 1
+        }
+      ],
+      "outputs": [
+        {
+          "resource": "reference:block_ice",
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}

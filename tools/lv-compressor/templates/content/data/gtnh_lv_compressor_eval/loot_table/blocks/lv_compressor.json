@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "gtnh_lv_compressor_eval:lv_compressor"
+        }
+      ]
+    }
+  ]
+}

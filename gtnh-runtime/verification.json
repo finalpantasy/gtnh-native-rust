@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "status": "VERIFIED_PROCESSING_POLICY_NOT_NATIVE_GAMEPLAY",
+  "reference": {
+    "pack": "GTNH 2.9.0",
+    "gt5_commit": "cec0f968ed521d4c9d8631667fa7f4f72b836941",
+    "sample_count": 1204,
+    "fixture_sha256": "9bd96947d847013047f08f2e92f182e874dd695a1a5412a70024020fc8f22374"
+  },
+  "rust": {
+    "version": "1.99.1",
+    "target": "x86_64-pc-windows-gnu",
+    "offline": true,
+    "build_jobs": 1,
+    "tests_passed": 9,
+    "test_receipt_sha256": "a5021e471d40eb164a8450e9d76c84b140666ffb9d4bb1ed5e3c1330e1db782a",
+    "test_log_sha256": "29f97b5ba12834583ddbf24682a5fb113943cb51a8394684613e3c0b7b614859",
+    "source_sha256": "b5ad6470e54d9e81aac77d1859ac8200f9e1a5c10a42b549f1739cc284d7e2b4",
+    "tests_sha256": "caf9fe7bf1cca32e5324b56b867f12ae3c26c909c9296b81d1b59fe1020b28aa",
+    "lock_sha256": "458e6b8096321c0b416eb7dde46fa4423633980443718476f826dd4238fc0ea2"
+  },
+  "regression_sensitivity": {
+    "mutation": "pause active work instead of resetting progress on failed energy drain",
+    "unchanged_trace_rejected_at_machine_tick": 491,
+    "expected_progress": -100,
+    "mutant_progress": 128,
+    "isolated_target_directory": true,
+    "receipt_sha256": "d787905aa2150ca1d3d0d9bc176ac3504a1a156a0eb89a799569a065e47dc6da"
+  },
+  "independent_review": "Accepted after removing artificial input-quantity restriction",
+  "limits": [
+    "Java server-API trace only",
+    "Rust serialization replay is not original Java save/reopen parity",
+    "Native Horizon integration NOT_RUN",
+    "No generic overclock, voltage network, steam, removal, active output insertion, or full-pack parity claim"
+  ]
+}

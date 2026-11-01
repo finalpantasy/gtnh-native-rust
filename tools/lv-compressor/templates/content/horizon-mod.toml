@@ -1,0 +1,6 @@
+id = "gtnh_lv_compressor_eval"
+name = "GTNH LV Compressor Evaluation"
+version = "0.1.0"
+side = "both"
+api = "0.2"
+capabilities = ["registries"]

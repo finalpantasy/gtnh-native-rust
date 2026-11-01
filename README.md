@@ -18,6 +18,8 @@ The current recipes/tasks in the lab are synthetic. Six separately labeled compr
 
 The [reference compressor prototype](docs/reference-compressor.md) now also runs through Horizon's normal native/content mod boundary. Its six declared recipes passed real menu transfers, exact test-energy accounting, server chunk unload/resume, repeated world saves/reopens, blocked output, and bounded hopper checks. This is a verified processing slice with explicitly supplied test power; the full GTNH machine and progression systems remain unfinished.
 
+The separate [LV compressor evaluation](docs/lv-compressor.md) matches all 1,204 measured sand-processing reference rows, including recovery after power loss. Its actual native save/reopen test also preserves active work, charged recovery, player inventory, and collected output without duplication. The portable source tool keeps both Rust libraries separate and reproduces the tested native/content packages. This remains a bounded evaluation with fixture power; full-pack parity and stock-launcher installation of this LV bundle are unfinished.
+
 ## Run the library checks
 
 The commands below require Rust 1.95 or newer because they include the desktop viewer. The core libraries separately declare Rust 1.90.

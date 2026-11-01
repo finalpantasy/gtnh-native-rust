@@ -1,0 +1,8 @@
+# Preserve checkout bytes for the locked native source packages.
+/gtnh-runtime/** -text
+/tools/lv-compressor/** -text
+/native-foundation/Cargo.toml -text
+/native-foundation/crates/industrial-sim/Cargo.toml -text
+/native-foundation/crates/industrial-sim/src/** -text
+/native-foundation/fixtures/industrial-v1.json -text
+/tools/reference-compressor/LICENSE -text

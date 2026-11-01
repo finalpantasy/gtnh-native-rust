@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "package": {
+    "id": "gtnh_lv_compressor_eval",
+    "version": "0.1.0",
+    "game": "26.3",
+    "horizon_revision": "681124a485b82a27ac4e769756a2f3a2356e6827",
+    "horizon_api": 45,
+    "sdk_revision": "3ac63df26d332bc344ba645d5d23497b7d4ad985",
+    "sdk_upstream_contribution": "https://github.com/horizon-rust/horizon-mixins/pull/18",
+    "native_archive": "gtnh_lv_compressor_eval.hnmod",
+    "content_archive": "gtnh_lv_compressor_eval.hmod",
+    "native_archive_sha256": "c63fa988f60e94920b09ec5f71ebc3ed74e51117fe89f9f984ea22f726235fcc",
+    "content_archive_sha256": "ab94a30985055ad725e43753997d415da0270cc7b99e4680a9bf3aa65812a9b6"
+  },
+  "pack_inputs": {
+    "files": {
+      "gtnh-runtime/Cargo.toml": "cf5d92128037c54692770a0ea41add7d67ec53245dc34f48aad645fa8e65bfd6",
+      "gtnh-runtime/src/lib.rs": "b5ad6470e54d9e81aac77d1859ac8200f9e1a5c10a42b549f1739cc284d7e2b4",
+      "native-foundation/Cargo.toml": "809e5e70f02917e66576f0b552e4c0139687bb9b0f58dc237e87637e90a6b486",
+      "native-foundation/crates/industrial-sim/Cargo.toml": "6e3106803d11105d14864d59c7b462ead0ad4c1ec36cf2db1c45f36148e40b4b",
+      "native-foundation/crates/industrial-sim/src/content/selection_tests.rs": "0c3e9056e6ea3742649b5a16597b547c460650b6d705d5111fb341e0c881bfcb",
+      "native-foundation/crates/industrial-sim/src/content.rs": "851e0caa4d9dcbe258f1e4d91b7cb7cabceca682b25b5f4feb858e1d867068a7",
+      "native-foundation/crates/industrial-sim/src/inventory.rs": "0fd7817ddfb8f2701606c028bbad0dfa81e67b22a2a2f4ea53d841cd6e6e6a5a",
+      "native-foundation/crates/industrial-sim/src/lib.rs": "931101fa775de136e2bfe4b01a06c91b71fa53382e5575cca8a7be7d8e60483f",
+      "native-foundation/crates/industrial-sim/src/logistics/tests.rs": "575a7b8a853fa7842581fb3ec3d14ec18d742e7d8fd0a8e42fc44f11e0ef5c0a",
+      "native-foundation/crates/industrial-sim/src/logistics.rs": "71de21853c42c291a0110fe0a740f2ef3a1795e7ed92e51dc76606bc66a2f630",
+      "native-foundation/crates/industrial-sim/src/machine.rs": "b294e3ea3951da73e62872cc7a442f1b52bafce83f975f7c905a8b139db717ff",
+      "native-foundation/fixtures/industrial-v1.json": "9ee9cb2b27496621c12a34bd7e1238254205bbdfea2729996ad667f03b03c7c0"
+    },
+    "workspace_manifest": "native-foundation/Cargo.toml",
+    "workspace_metadata": {
+      "edition": "2024",
+      "rust-version": "1.90",
+      "license": "MIT",
+      "version": "0.1.0"
+    },
+    "policy_manifest": "gtnh-runtime/Cargo.toml",
+    "policy_source": "gtnh-runtime/src/lib.rs",
+    "industrial_manifest": "native-foundation/crates/industrial-sim/Cargo.toml",
+    "industrial_source_dir": "native-foundation/crates/industrial-sim",
+    "industrial_fixture": "native-foundation/fixtures/industrial-v1.json",
+    "industrial_source_files": [
+      "src/content.rs",
+      "src/content/selection_tests.rs",
+      "src/inventory.rs",
+      "src/lib.rs",
+      "src/logistics.rs",
+      "src/logistics/tests.rs",
+      "src/machine.rs"
+    ],
+    "dependencies": {
+      "serde": {
+        "version": "1",
+        "features": ["derive"]
+      },
+      "serde_json": "=1.0.151"
+    },
+    "crate_names": {
+      "industrial_source": "industrial-sim",
+      "industrial_package": "gtnh-lv-compressor-eval-industrial-sim",
+      "policy_source": "gtnh-basic-machine",
+      "policy_package": "gtnh-lv-compressor-eval-basic-machine"
+    }
+  },
+  "local_inputs": {
+    "LICENSE": "7d1cee55e1946c2826575cfd3710c2f7892691d1e18616339ef1da5fb7699a07",
+    "support/adapter.rs": "90d3316e7367ce9138fce3984a39302c994e14d108771d34e46c5ec6441d0b0b",
+    "support/fixtures/compressor-reference-v1.json": "677326f37097689f37652a247d6b172f6881159b5f6f3860d2cb63ae9c12d456"
+  },
+  "native_templates": [
+    {"path": "mixins/gtnh_lv_compressor_eval/hooks/block_entity.rs", "sha256": "a28e13d79f6e1dece2e1b848de4898052f8022bae529ae355f8eda00cdf1d186"},
+    {"path": "mixins/gtnh_lv_compressor_eval/hooks/block_entity_container.rs", "sha256": "019e99c3c0175fd07b4cab7698ff062b2e6a9c53577f0a26f136afc992295c5e"},
+    {"path": "mixins/gtnh_lv_compressor_eval/hooks/block_entity_tick.rs", "sha256": "b47fe850678524ab034f068637685ed080d3464d72795430cdbfb0e6f1473eb4"},
+    {"path": "mixins/gtnh_lv_compressor_eval/hooks/block_entity_ticks.rs", "sha256": "60a3daa980012b30ca922e775808ab040498d6a450cb40ce527d690b5e8f325d"},
+    {"path": "mixins/gtnh_lv_compressor_eval/hooks/perform_command.rs", "sha256": "7c5eaf54124204e82ba2ce9e666afbf3baa0954ef454bb6de0cf1e12396c5802"},
+    {"path": "mixins/gtnh_lv_compressor_eval/hooks/register_commands.rs", "sha256": "db2d1e1ef0caa2a23e0b97c6cd1a7e7d0bb9704b6771d3039669d121ea5c79d7"},
+    {"path": "mixins/gtnh_lv_compressor_eval/hooks/screen.rs", "sha256": "cf3c9cef0bf71ab99bbb8d5d014c38b0d86bdbc66b1b5bdaa5ab5840ef3c3d3b"},
+    {"path": "mixins/gtnh_lv_compressor_eval/hooks/screen_draw.rs", "sha256": "c8c8a651fd64549e803f28dcd06bb78206cb67355624f63b1f9c4a7c0b8e776e"},
+    {"path": "mixins/gtnh_lv_compressor_eval/horizon-mixin.toml", "sha256": "d291d35631061b1c5bd8b73021a0ebe26570fde064606b6fa15bf216943341b8"},
+    {"path": "mixins/gtnh_lv_compressor_eval/LICENSE", "sha256": "5ca2edff81e14fd5e751f4e2963d4935c387254336cde380728e217021aaa2b5"},
+    {"path": "mixins/gtnh_lv_compressor_eval/NOTICE.md", "sha256": "bfbd058deb4043da29d74c3568313653e80d934019974a8b89ac2e39b72c5f43"}
+  ],
+  "content_templates": [
+    {"path": "assets/gtnh_lv_compressor_eval/blockstates/lv_compressor.json", "sha256": "26c3cb3803657c5539d94cf1727a813a6b6723d337426ccb72db08d6408188b9"},
+    {"path": "assets/gtnh_lv_compressor_eval/items/lv_compressor.json", "sha256": "c48e88dc8a12e2ad2e20a25ab5e0eacfe610a87aae268d863bc815601c99a04d"},
+    {"path": "assets/gtnh_lv_compressor_eval/lang/en_us.json", "sha256": "96bb7026fdde8c91166a90977cbccb6b339c5c4def28080bfe6667821fd1c39c"},
+    {"path": "assets/gtnh_lv_compressor_eval/models/item/lv_compressor.json", "sha256": "c1d81af24e8b638ec9ee7097e3cc763d5b210eebe8457b2a2543d4346ca2e4ab"},
+    {"path": "data/gtnh_lv_compressor_eval/horizon/block/lv_compressor.json", "sha256": "eb19a8f4e83b6a7e8d5011a7ee0ed590f40990b044ec840586e5c6bc816415eb"},
+    {"path": "data/gtnh_lv_compressor_eval/loot_table/blocks/lv_compressor.json", "sha256": "07d35e83a7aea5b8715f6a91fb24f6b5287a95232717d96446f4ab8525587ca9"},
+    {"path": "data/gtnh_lv_compressor_eval/recipe/evaluation_lv_compressor.json", "sha256": "751654c0c703049a3610d3914ca0ecb2ce54b00aab055553f75b897e2b064b81"},
+    {"path": "horizon-mod.toml", "sha256": "8da8d5ceff7d26fb275ac5a6db2fe0f07b650527d802721f87ee61e48054772f"}
+  ]
+}

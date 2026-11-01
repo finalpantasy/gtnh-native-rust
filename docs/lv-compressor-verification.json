@@ -1,0 +1,139 @@
+{
+  "schema": 1,
+  "status": "VERIFIED_BOUNDED_NATIVE_PROCESSING_AND_SAVE_REOPEN",
+  "processing": {
+    "schema": 1,
+    "status": "ACTUAL_NATIVE_LV_SAND_PROCESSING_VERIFIED",
+    "scope": "Bounded sand-to-sandstone processing in the native evaluation block; normal power, shortage/recovery and blocked output.",
+    "reference_rows_matched": 1204,
+    "actual_native_samples": 3672,
+    "machine_ticks_per_scenario": 1224,
+    "energy_spent_eu": {
+      "nominal": 600,
+      "shortage": 856,
+      "blocked_output": 600
+    },
+    "wasted_work_eu": {
+      "nominal": 0,
+      "shortage": 256,
+      "blocked_output": 0
+    },
+    "final_each": {
+      "input_sand": 4,
+      "output_sandstone": 1,
+      "stored_eu": 0,
+      "pending_output": 0,
+      "completed_batches": 1
+    },
+    "fixture_obstruction_items_removed": 64,
+    "fixture_obstruction_not_production": true,
+    "decode_errors": 0,
+    "natural_exit_code": 0,
+    "forced_termination": false,
+    "visible_game_launched": false,
+    "max_fps_readback": 30,
+    "cpu_affinity_mask": 3,
+    "seconds": 288.143,
+    "horizon_revision": "681124a485b82a27ac4e769756a2f3a2356e6827",
+    "sdk_revision": "3ac63df26d332bc344ba645d5d23497b7d4ad985",
+    "sdk_pr": "https://github.com/horizon-rust/horizon-mixins/pull/18",
+    "client_sha256": "c49d620716cc9bd033379131d4d91580853a34456bfc11bcd564644de04238ea",
+    "reference_fixture_sha256": "9bd96947d847013047f08f2e92f182e874dd695a1a5412a70024020fc8f22374",
+    "inner_receipt_sha256": "a98200934b545cdf6f10ec0fa96b512e82a80d3292af9eb9dd7819c3daac47d6",
+    "outer_receipt_sha256": "bd9e571c944a22b9ff7d835481d310c151147bb172841f700fa91d013d48f81b",
+    "game_log_sha256": "4a39543c7f46cf9546bf1e195ac3899de0e05b850fcd4058d2435709f587f2a9",
+    "source_and_assets_preserved": true,
+    "independent_review": "PASS_ACTUAL_BOUNDED_LV_REPLAY",
+    "not_run": [
+      "visible recovery UI verification",
+      "active/cooldown save-unload-reopen",
+      "production output extraction persistence",
+      "stock launcher install",
+      "electrical networks",
+      "broader recipes",
+      "multiplayer",
+      "full pack parity"
+    ]
+  },
+  "persistence": {
+    "schema": 1,
+    "status": "ACTUAL_NATIVE_LV_SAVE_REOPEN_VERIFIED",
+    "scope": "Bounded sand-to-sandstone evaluation slice in a private native client world",
+    "phases": 4,
+    "bounded_parts": 2,
+    "native_trace_rows": 1226,
+    "full_policy_menu_observations": 38,
+    "part1_receipt_sha256": "5764d1e3c83339806d3253e2e67bb3ae82937c2ab4c94a01771f88a2d62df5c2",
+    "part2_receipt_sha256": "725dd950ff0f8794d196227e0b5089a54b78c75eff1d9d015868fbde189363c7",
+    "part_seconds": [
+      241.592,
+      169.697
+    ],
+    "active_and_charged_negative_cooldown_persist": true,
+    "stale_output_mirror_reconciles_without_duplication": true,
+    "collected_sandstone": 3,
+    "final_idle_ticks": 10,
+    "final_machines": {
+      "nominal": {
+        "ticks": 613,
+        "completed_batches": 2,
+        "spent_eu": 1200,
+        "wasted_eu": 0,
+        "input_sand": 0,
+        "output_sandstone": 0
+      },
+      "shortage": {
+        "ticks": 613,
+        "completed_batches": 1,
+        "spent_eu": 856,
+        "wasted_eu": 256,
+        "input_sand": 4,
+        "output_sandstone": 0
+      }
+    },
+    "natural_client_exits": 4,
+    "forced_terminations": 0,
+    "decode_errors": 0,
+    "max_fps_readback": 30,
+    "cpu_limit": 2,
+    "profile_file_count": 23130,
+    "region_file_count": 27,
+    "current_saved_profile_matches_closed_checkpoint": true,
+    "final_disk_nbt_independently_verified": true,
+    "recovery_screenshot_sha256": "0a72c3885a88c7a8de96953e6c26f033e9cae25aff629de6ead57ecd916ba6d0",
+    "screenshot_visual_review": "Readable Recovery: 50 ticks and Fixture EU: 600/2048; reserved slot hidden",
+    "independent_review": "PASS",
+    "limitations": [
+      "Fixture energy, not electrical network",
+      "Original Java save/reopen and chained scheduling parity not established",
+      "Stock launcher installation, removal/drop behavior, multiplayer and whole-pack parity not established"
+    ]
+  },
+  "screenshot": {
+    "kind": "Actual native game menu, cropped",
+    "original_sha256": "0a72c3885a88c7a8de96953e6c26f033e9cae25aff629de6ead57ecd916ba6d0",
+    "crop_pixels": [
+      450,
+      135,
+      540,
+      540
+    ],
+    "published_sha256": "97893add5cd28a0faa13040d3a54b243d54014c1496de25503d32a49ab35277b"
+  },
+  "distribution": "Source-only evaluation packages; full GTNH pack remains unfinished",
+  "packaging": {
+    "archive_reproduction": "Byte-identical to both tested archives, including all 25 native and 8 content members",
+    "package_tests_passed": 5,
+    "package_tests_skipped": 1,
+    "skip_reason": "Windows symlink creation privilege unavailable",
+    "actual_windows_junction_rejected_before_output": true,
+    "legacy_reparse_attribute_fallback_checked": true,
+    "tested_python": "3.14.6",
+    "tested_os": "Windows",
+    "python_3_11_execution": "NOT_RUN",
+    "unix_execution": "NOT_RUN",
+    "unique_output_path_exclusive_ownership_required": true,
+    "concurrent_output_limitation": "On POSIX, a concurrently created empty target directory can be replaced during the final rename gap; concurrent writers are unsupported",
+    "independent_review": "PASS_WITH_DISCLOSURES"
+  }
+}
