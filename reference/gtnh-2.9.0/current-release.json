@@ -1,0 +1,52 @@
+{
+  "reference_version": "GTNH 2.9.0 stable",
+  "checked_date": "2026-11-01",
+  "status": "STATIC_REFERENCE_VERIFIED_RUNTIME_REVALIDATION_PENDING",
+  "manifest": {
+    "repository": "https://github.com/GTNewHorizons/DreamAssemblerXXL",
+    "commit": "e641ce1ecfca878a1c89b8d9566b67927da8c134",
+    "path": "releases/manifests/2.9.0.json",
+    "git_blob": "4d907b78151dfef7c3644aabcd37c810a1f90377",
+    "sha256": "e2c7396c7121c86668ce3f93216f2bde71984a7ecd34ed5d231f8888ce3d13fa",
+    "assets_git_blob": "3ba98be84bb3c60bed230ef9bbcfcdb66757c3b7"
+  },
+  "configuration_archive": {
+    "release": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/tag/2.9.0",
+    "published_at": "2026-10-31T12:02:23Z",
+    "asset_id": 695272591,
+    "filename": "2.9.0.zip",
+    "bytes": 211452849,
+    "upstream_sha256": "b94765dcc410187e3f595c2c8482e269755691018490406185fea3cc7ed5f65f"
+  },
+  "static_assembly": {
+    "mods": 243,
+    "client_common_mods": 242,
+    "server_only_mods": 1,
+    "configuration_files": 9190,
+    "template_files": 7,
+    "instance_files": 9440,
+    "all_copied_file_hashes_verified": true,
+    "runtime": "NOT_RUN"
+  },
+  "gregtech": {
+    "version": "5.09.54.265",
+    "tag": "5.09.54.265",
+    "tag_commit": "bb00f3f1023e20d3cce84cf09abb442d22a3a5a5",
+    "downloaded_jar_sha256": "b969e11625a0298416a75b6e39703da795233edb71cb66f25fb9bbf654d75528"
+  },
+  "changed_versions": [
+    {"name": "GT5-Unofficial", "before": "5.09.54.264", "after": "5.09.54.265"},
+    {"name": "OpenComputers", "before": "1.12.67-GTNH", "after": "1.12.68-GTNH"},
+    {"name": "WitchingGadgets", "before": "1.8.52-GTNH", "after": "1.8.53-GTNH"},
+    {"name": "Angelica", "before": "2.2.42", "after": "2.2.43"},
+    {"name": "GuideNH", "before": "1.3.54", "after": "1.3.55"},
+    {"name": "Realistic-World-Gen-2", "before": "2.0.3", "after": "2.0.6"}
+  ],
+  "historical_observations": {
+    "manifest_commit": "2fd7dfbe3315713495747b8f4d305bdbc6bab019",
+    "gregtech": "5.09.54.264",
+    "scope": "Existing stage counts, recipe declarations, 1204-row compressor comparison and 1226-row installed save proof retain their recorded inputs. They are not relabeled as current-release verification."
+  },
+  "checksum_scope": "The configuration checksum is published upstream. The mod JAR hash records the exact downloaded artifact and is not presented as an independently published checksum.",
+  "limits": "Reference assembly only. Current-release runtime replay, complete native mod ports and whole-pack parity remain unfinished. No game binaries, assets, archives, private worlds or raw exports are included."
+}

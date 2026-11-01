@@ -1,6 +1,6 @@
 {
   "version": "2.9.0",
-  "manifest_commit": "2fd7dfbe3315713495747b8f4d305bdbc6bab019",
+  "manifest_commit": "e641ce1ecfca878a1c89b8d9566b67927da8c134",
   "scope": "All 243 manifest entries; includes client, common and server features. Runtime observation is not port completion.",
   "mods": [
     {
@@ -69,8 +69,8 @@
     },
     {
       "name": "Angelica",
-      "version": "2.2.42",
-      "filename": "angelica-2.2.42.jar",
+      "version": "2.2.43",
+      "filename": "angelica-2.2.43.jar",
       "side": "CLIENT",
       "rust_port": "NOT_PORTED",
       "runtime_parity": "NOT_RUN"
@@ -813,8 +813,8 @@
     },
     {
       "name": "GT5-Unofficial",
-      "version": "5.09.54.264",
-      "filename": "gregtech-5.09.54.264.jar",
+      "version": "5.09.54.265",
+      "filename": "gregtech-5.09.54.265.jar",
       "side": "BOTH",
       "rust_port": "NOT_PORTED",
       "runtime_parity": "NOT_RUN"
@@ -853,8 +853,8 @@
     },
     {
       "name": "GuideNH",
-      "version": "1.3.54",
-      "filename": "guidenh-1.3.54.jar",
+      "version": "1.3.55",
+      "filename": "guidenh-1.3.55.jar",
       "side": "BOTH",
       "rust_port": "NOT_PORTED",
       "runtime_parity": "NOT_RUN"
@@ -1317,8 +1317,8 @@
     },
     {
       "name": "OpenComputers",
-      "version": "1.12.67-GTNH",
-      "filename": "OpenComputers-1.12.67-GTNH.jar",
+      "version": "1.12.68-GTNH",
+      "filename": "OpenComputers-1.12.68-GTNH.jar",
       "side": "BOTH",
       "rust_port": "NOT_PORTED",
       "runtime_parity": "NOT_RUN"
@@ -1445,8 +1445,8 @@
     },
     {
       "name": "Realistic-World-Gen-2",
-      "version": "2.0.3",
-      "filename": "rwg2-2.0.3.jar",
+      "version": "2.0.6",
+      "filename": "rwg2-2.0.6.jar",
       "side": "BOTH",
       "rust_port": "NOT_PORTED",
       "runtime_parity": "NOT_RUN"
@@ -1925,8 +1925,8 @@
     },
     {
       "name": "WitchingGadgets",
-      "version": "1.8.52-GTNH",
-      "filename": "WitchingGadgets-1.8.52-GTNH.jar",
+      "version": "1.8.53-GTNH",
+      "filename": "WitchingGadgets-1.8.53-GTNH.jar",
       "side": "BOTH",
       "rust_port": "NOT_PORTED",
       "runtime_parity": "NOT_RUN"

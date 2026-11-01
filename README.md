@@ -10,6 +10,8 @@ Actual development-lab capture: synthetic processing, quest submission/reward ac
 
 ## Current code
 
+The comparison baseline is the current official GTNH **2.9.0 stable** release, including GregTech **5.09.54.265**. Its manifest and configuration archive replaced the earlier same-tag snapshot on October 31. All 243 exact mod versions and the current configuration have been assembled and verified separately. The numerical runtime observations and compressor proofs below used the earlier GregTech .264 snapshot; replay against .265 is pending. [Release provenance](reference/gtnh-2.9.0/current-release.json) records that distinction. Updating reference files does not establish new native gameplay parity.
+
 `native-foundation/` is a runnable independent experiment containing industrial simulation, item/fluid transfers, quest primitives, transactional storage, cubic streaming, budgeted GPU resources and a native inspection viewer. The world/rendering modules are integration experiments pending adoption into the engine; they are not permanent GTNH-only engine requirements. `bridges/horizon_machine.rs` is the separately verified Horizon adapter experiment from which the packaged reference compressor bridge was developed.
 
 The current recipes/tasks in the lab are synthetic. Six separately labeled compressor parameter fixtures record source-declared facts, not complete registered-recipe parity. `reference/gtnh-2.9.0/mods.json` retains all 243 pinned manifest entries with explicit unfinished status. No upstream mod is silently dropped.
