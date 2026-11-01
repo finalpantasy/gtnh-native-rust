@@ -13,11 +13,11 @@ source = "runtime.rs"
 
 [[crate]]
 id = "industrial_sim"
-path = "crates/industrial-sim"
+path = "industrial-sim"
 
 [[crate]]
 id = "basic_machine"
-path = "crates/basic-machine"
+path = "basic-machine"
 
 [[injection]]
 id = "block_entity"

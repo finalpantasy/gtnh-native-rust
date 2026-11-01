@@ -13,6 +13,12 @@ names and the `industrial-sim` dependency alias. Three test-only
 adapter gets one `native_data!` fixture transform, and its exact child test
 module declaration is removed from the packaged runtime source.
 
+Both crates occupy top-level bundle folders; the industrial test fixture is
+under `industrial-sim/data/`. Horizon's Rust bundle reader accepts this layout.
+The earlier archive put the fixture in a nested `crates/.../fixtures/` folder,
+which the normal launcher rejected. The correction changes packaging paths
+and three test-only includes; the original production sources are preserved.
+
 The support adapter is an assembler input, not a standalone Cargo crate. The
 original private adapter test harness is not included because it refers to a
 repository-specific fixture path. The preserved `NOTICE.md` retains its
@@ -36,7 +42,7 @@ until the process exits; concurrent writers targeting the same path are
 unsupported. The packager checks the exact `gtnh-runtime/`,
 `native-foundation/`, support-file, and 19-template allowlists; validates their
 pinned hashes and manifest identities; verifies deterministic archive
-metadata and members; and checks both accepted archive hashes. It stages files
+metadata and members; and checks both expected archive hashes. It stages files
 in a sibling directory and renames that directory into place after a
 preflight check. A populated destination found at preflight is preserved, but
 the preflight and rename do not provide a concurrency-safe no-clobber
@@ -52,7 +58,7 @@ line-ending conversion or other byte change.
 
 The expected SHA-256 values are:
 
-- `.hnmod`: `c63fa988f60e94920b09ec5f71ebc3ed74e51117fe89f9f984ea22f726235fcc`
+- `.hnmod`: `d9cfe6d35bc82c7c2353c2b0018affc8d8cd8a0def0f79bcf696c8d48ab318c5`
 - `.hmod`: `ab94a30985055ad725e43753997d415da0270cc7b99e4680a9bf3aa65812a9b6`
 
 Run the source-only package checks from the repository root with:
@@ -67,8 +73,11 @@ The package pins Horizon revision
 `681124a485b82a27ac4e769756a2f3a2356e6827` and hook API 45, with native SDK
 revision `3ac63df26d332bc344ba645d5d23497b7d4ad985`. The SDK same-bundle library
 dependency change is contributed in [draft upstream PR 18](https://github.com/horizon-rust/horizon-mixins/pull/18);
-this does not claim the change was merged. The package is a development
-integration, not a verified stock-launcher installation.
+this does not claim the change was merged. Normal Windows launcher installation
+and four fresh installed-client save/reopen sessions passed with launcher
+commit `5515c06762a0634f037e643bd021dd0f7f1bb800`, contributed as
+[draft Horizon PR 5756](https://github.com/horizon-rust/horizon/pull/5756).
+Unmodified stock-launcher installation remains unverified.
 
 The operator-only, level-4 fixture commands are:
 
@@ -83,7 +92,12 @@ exist for controlled evaluation; they do not establish production power
 delivery or full GTNH behavior.
 
 The accepted bounded run independently replayed 1,204 reference rows and a
-four-phase native save/reopen proof. The separate replay covers sand-to-
+four-phase native save/reopen proof using the earlier native archive
+`c63fa988f60e94920b09ec5f71ebc3ed74e51117fe89f9f984ea22f726235fcc`.
+The corrected archive now passes a separate four-session save/reopen proof
+using the normally installed executable and normal content-mod discovery.
+The 1,204-row comparison was not rerun against that executable. The
+content archive is unchanged. The earlier replay covers sand-to-
 sandstone processing. Whole-pack parity, network power, original chained-job
 scheduling, machine removal behavior, and stock-launcher installation remain
 unverified. The [LV evaluation report](../../docs/lv-compressor.md) records the

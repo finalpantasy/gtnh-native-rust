@@ -498,7 +498,7 @@ def assemble(data: dict[str, bytes]) -> tuple[dict[str, bytes], dict[str, bytes]
     ):
         raise ValueError("native identity or Horizon compatibility changed")
     declared_crates = {(crate.get("id"), crate.get("path")) for crate in native_manifest.get("crate", [])}
-    if declared_crates != {("industrial_sim", "crates/industrial-sim"), ("basic_machine", "crates/basic-machine")}:
+    if declared_crates != {("industrial_sim", "industrial-sim"), ("basic_machine", "basic-machine")}:
         raise ValueError("native manifest must declare both the industrial and policy crates")
     declared_hooks = {
         (hook.get("hook"), hook.get("hook_version")) for hook in native_manifest.get("injection", [])
@@ -531,8 +531,8 @@ def assemble(data: dict[str, bytes]) -> tuple[dict[str, bytes], dict[str, bytes]
         'serde = { version = "1", features = ["derive"] }',
         'serde_json = "=1.0.151"',
     ]
-    industrial_root = f"mixins/{MOD}/crates/industrial-sim"
-    policy_root = f"mixins/{MOD}/crates/basic-machine"
+    industrial_root = f"mixins/{MOD}/industrial-sim"
+    policy_root = f"mixins/{MOD}/basic-machine"
     industrial_manifest_bytes = manifest(crate_names["industrial_package"], industrial_manifest, registry_lines)
     policy_dependencies = [
         f'industrial-sim = {{ path = "../industrial-sim", package = "{crate_names["industrial_package"]}" }}',
@@ -558,7 +558,7 @@ def assemble(data: dict[str, bytes]) -> tuple[dict[str, bytes], dict[str, bytes]
                 raise ValueError("test fixture include count changed")
             packaged = original.replace(
                 old,
-                b'include_bytes!(concat!(env!("CARGO_MANIFEST_DIR"), "/fixtures/industrial-v1.json"))',
+                b'include_bytes!(concat!(env!("CARGO_MANIFEST_DIR"), "/data/industrial-v1.json"))',
             )
             transforms.append(
                 {
@@ -569,7 +569,7 @@ def assemble(data: dict[str, bytes]) -> tuple[dict[str, bytes], dict[str, bytes]
                 }
             )
         native[f"{industrial_root}/{relative_source}"] = packaged
-    native[f"{industrial_root}/fixtures/industrial-v1.json"] = read(pack_inputs["industrial_fixture"])
+    native[f"{industrial_root}/data/industrial-v1.json"] = read(pack_inputs["industrial_fixture"])
 
     if any(not name.endswith((".json", ".toml", ".md", ".rs", "LICENSE")) for name in [*native, *content]):
         raise ValueError("unreviewed package file extension")

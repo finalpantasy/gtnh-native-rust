@@ -10,7 +10,7 @@
     "sdk_upstream_contribution": "https://github.com/horizon-rust/horizon-mixins/pull/18",
     "native_archive": "gtnh_lv_compressor_eval.hnmod",
     "content_archive": "gtnh_lv_compressor_eval.hmod",
-    "native_archive_sha256": "c63fa988f60e94920b09ec5f71ebc3ed74e51117fe89f9f984ea22f726235fcc",
+    "native_archive_sha256": "d9cfe6d35bc82c7c2353c2b0018affc8d8cd8a0def0f79bcf696c8d48ab318c5",
     "content_archive_sha256": "ab94a30985055ad725e43753997d415da0270cc7b99e4680a9bf3aa65812a9b6"
   },
   "pack_inputs": {
@@ -77,7 +77,7 @@
     {"path": "mixins/gtnh_lv_compressor_eval/hooks/register_commands.rs", "sha256": "db2d1e1ef0caa2a23e0b97c6cd1a7e7d0bb9704b6771d3039669d121ea5c79d7"},
     {"path": "mixins/gtnh_lv_compressor_eval/hooks/screen.rs", "sha256": "cf3c9cef0bf71ab99bbb8d5d014c38b0d86bdbc66b1b5bdaa5ab5840ef3c3d3b"},
     {"path": "mixins/gtnh_lv_compressor_eval/hooks/screen_draw.rs", "sha256": "c8c8a651fd64549e803f28dcd06bb78206cb67355624f63b1f9c4a7c0b8e776e"},
-    {"path": "mixins/gtnh_lv_compressor_eval/horizon-mixin.toml", "sha256": "d291d35631061b1c5bd8b73021a0ebe26570fde064606b6fa15bf216943341b8"},
+    {"path": "mixins/gtnh_lv_compressor_eval/horizon-mixin.toml", "sha256": "4bd7a588ea7787d2a7707c2605027ecccd39fbc3b950cace4dc87a87f14052be"},
     {"path": "mixins/gtnh_lv_compressor_eval/LICENSE", "sha256": "5ca2edff81e14fd5e751f4e2963d4935c387254336cde380728e217021aaa2b5"},
     {"path": "mixins/gtnh_lv_compressor_eval/NOTICE.md", "sha256": "bfbd058deb4043da29d74c3568313653e80d934019974a8b89ac2e39b72c5f43"}
   ],

@@ -33,12 +33,46 @@ PACKAGE = load_package_module(TOOL_ROOT / "package_compressor.py", "lv_compresso
 
 NATIVE_NAME = "gtnh_lv_compressor_eval.hnmod"
 CONTENT_NAME = "gtnh_lv_compressor_eval.hmod"
-NATIVE_SHA256 = "c63fa988f60e94920b09ec5f71ebc3ed74e51117fe89f9f984ea22f726235fcc"
+NATIVE_SHA256 = "d9cfe6d35bc82c7c2353c2b0018affc8d8cd8a0def0f79bcf696c8d48ab318c5"
 CONTENT_SHA256 = "ab94a30985055ad725e43753997d415da0270cc7b99e4680a9bf3aa65812a9b6"
 MOD = "gtnh_lv_compressor_eval"
 
 
 class PackageTests(unittest.TestCase):
+    def test_native_archive_uses_supported_crate_data_layout(self) -> None:
+        data, _ = PACKAGE.approved_inputs()
+        native, _, _ = PACKAGE.assemble(data)
+        prefix = f"mixins/{MOD}/"
+        manifest = PACKAGE.parse_toml(native[prefix + "horizon-mixin.toml"], "mixin manifest")
+        self.assertEqual(
+            {(item["id"], item["path"]) for item in manifest["crate"]},
+            {("industrial_sim", "industrial-sim"), ("basic_machine", "basic-machine")},
+        )
+        # Horizon permits arbitrary data beneath a top-level crate's data/ directory.
+        for name in native:
+            if name == "horizon-native.json":
+                continue
+            rest = name.removeprefix(prefix)
+            parts = rest.split("/")
+            allowed_data = len(parts) >= 2 and (
+                parts[0] == "data" or (len(parts) >= 3 and parts[1] == "data")
+            )
+            allowed_text = len(parts) <= 2 and (
+                parts[-1].startswith(("README", "LICENSE", "LICENCE", "COPYING", "NOTICE"))
+                or parts[-1] == ".gitignore"
+            )
+            self.assertTrue(name.startswith(prefix))
+            self.assertTrue(rest.endswith((".rs", ".toml")) or allowed_data or allowed_text, name)
+        self.assertEqual(
+            native[prefix + "industrial-sim/data/industrial-v1.json"],
+            data["native-foundation/fixtures/industrial-v1.json"],
+        )
+        for relative in ("src/machine.rs", "src/logistics/tests.rs"):
+            self.assertIn(
+                b'"/data/industrial-v1.json"',
+                native[prefix + "industrial-sim/" + relative],
+            )
+
     def test_archives_are_deterministic_and_keep_expected_manifests_and_members(self) -> None:
         data, _ = PACKAGE.approved_inputs()
         native, content, transforms = PACKAGE.assemble(data)
@@ -56,7 +90,7 @@ class PackageTests(unittest.TestCase):
         self.assertEqual(members["native"], native)
         self.assertEqual(members["content"], content)
         self.assertEqual(archive_transforms, transforms)
-        industrial_root = f"mixins/{MOD}/crates/industrial-sim"
+        industrial_root = f"mixins/{MOD}/industrial-sim"
         expected_native = {
             "horizon-native.json",
             f"mixins/{MOD}/LICENSE",
@@ -64,10 +98,10 @@ class PackageTests(unittest.TestCase):
             f"mixins/{MOD}/horizon-mixin.toml",
             f"mixins/{MOD}/runtime.rs",
             f"mixins/{MOD}/data/fixtures/compressor-reference-v1.json",
-            f"mixins/{MOD}/crates/basic-machine/Cargo.toml",
-            f"mixins/{MOD}/crates/basic-machine/src/lib.rs",
+            f"mixins/{MOD}/basic-machine/Cargo.toml",
+            f"mixins/{MOD}/basic-machine/src/lib.rs",
             f"{industrial_root}/Cargo.toml",
-            f"{industrial_root}/fixtures/industrial-v1.json",
+            f"{industrial_root}/data/industrial-v1.json",
             *(f"mixins/{MOD}/hooks/{hook}.rs" for hook in (
                 "block_entity",
                 "block_entity_ticks",
@@ -102,8 +136,8 @@ class PackageTests(unittest.TestCase):
         self.assertEqual(set(content), expected_content)
         self.assertIn("horizon-native.json", native)
         self.assertIn(f"mixins/{MOD}/runtime.rs", native)
-        self.assertIn(f"mixins/{MOD}/crates/industrial-sim/Cargo.toml", native)
-        self.assertIn(f"mixins/{MOD}/crates/basic-machine/Cargo.toml", native)
+        self.assertIn(f"mixins/{MOD}/industrial-sim/Cargo.toml", native)
+        self.assertIn(f"mixins/{MOD}/basic-machine/Cargo.toml", native)
         self.assertIn("horizon-mod.toml", content)
 
         with zipfile.ZipFile(io.BytesIO(native_bytes)) as archive:
@@ -117,13 +151,13 @@ class PackageTests(unittest.TestCase):
             )
             self.assertEqual(
                 {(item["id"], item["path"]) for item in mixin_manifest["crate"]},
-                {("industrial_sim", "crates/industrial-sim"), ("basic_machine", "crates/basic-machine")},
+                {("industrial_sim", "industrial-sim"), ("basic_machine", "basic-machine")},
             )
             industrial_manifest = PACKAGE.parse_toml(
-                archive.read(f"mixins/{MOD}/crates/industrial-sim/Cargo.toml"), "industrial-sim manifest"
+                archive.read(f"mixins/{MOD}/industrial-sim/Cargo.toml"), "industrial-sim manifest"
             )
             policy_manifest = PACKAGE.parse_toml(
-                archive.read(f"mixins/{MOD}/crates/basic-machine/Cargo.toml"), "basic-machine manifest"
+                archive.read(f"mixins/{MOD}/basic-machine/Cargo.toml"), "basic-machine manifest"
             )
             self.assertEqual(industrial_manifest["package"]["name"], "gtnh-lv-compressor-eval-industrial-sim")
             self.assertEqual(policy_manifest["package"]["name"], "gtnh-lv-compressor-eval-basic-machine")
@@ -228,7 +262,7 @@ class PackageTests(unittest.TestCase):
             shutil.copytree(
                 PACKAGE.TOOL_ROOT,
                 isolated_tool,
-                ignore=shutil.ignore_patterns("__pycache__", "build-*", "*.pyc", "*.pyo"),
+                ignore=shutil.ignore_patterns(".local", "__pycache__", "build-*", "*.pyc", "*.pyo"),
             )
             output = isolated_tool / f"build-portability-{uuid.uuid4().hex}"
             result = subprocess.run(

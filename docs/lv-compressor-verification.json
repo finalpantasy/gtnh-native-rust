@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "status": "VERIFIED_BOUNDED_NATIVE_PROCESSING_AND_SAVE_REOPEN",
+  "status": "VERIFIED_BOUNDED_NATIVE_PROCESSING_AND_PATCHED_LAUNCHER_SAVE_REOPEN",
   "processing": {
     "schema": 1,
     "status": "ACTUAL_NATIVE_LV_SAND_PROCESSING_VERIFIED",
@@ -110,20 +110,25 @@
     ]
   },
   "screenshot": {
-    "kind": "Actual native game menu, cropped",
-    "original_sha256": "0a72c3885a88c7a8de96953e6c26f033e9cae25aff629de6ead57ecd916ba6d0",
+    "kind": "Actual installed native game recovery menu, cropped",
+    "original_sha256": "bdd578a4ae2c6e938096f25aa9f6b17c756139803726ebe6709c61995f054692",
     "crop_pixels": [
       450,
       135,
       540,
       540
     ],
-    "published_sha256": "97893add5cd28a0faa13040d3a54b243d54014c1496de25503d32a49ab35277b"
+    "published_sha256": "0b2b2668ac97b12cc5c5acc83d3a89a29b085047ef58a7d0cbb2a8ed63ce076d",
+    "visual_review": "PASS technical labels: Recovery 50 ticks and Fixture EU 600/2048; reserved slot hidden"
   },
   "distribution": "Source-only evaluation packages; full GTNH pack remains unfinished",
   "packaging": {
-    "archive_reproduction": "Byte-identical to both tested archives, including all 25 native and 8 content members",
-    "package_tests_passed": 5,
+    "archive_reproduction": "Deterministic corrected native layout with 25 members; unchanged 8-member content archive",
+    "native_archive_sha256": "d9cfe6d35bc82c7c2353c2b0018affc8d8cd8a0def0f79bcf696c8d48ab318c5",
+    "earlier_runtime_native_archive_sha256": "c63fa988f60e94920b09ec5f71ebc3ed74e51117fe89f9f984ea22f726235fcc",
+    "corrected_archive_runtime": "PASS_PATCHED_NORMAL_INSTALL_AND_FOUR_PHASE_SAVE_REOPEN",
+    "rust_bundle_reader": "Original archive rejected; corrected archive accepted with all 25 members",
+    "package_tests_passed": 6,
     "package_tests_skipped": 1,
     "skip_reason": "Windows symlink creation privilege unavailable",
     "actual_windows_junction_rejected_before_output": true,
@@ -134,6 +139,88 @@
     "unix_execution": "NOT_RUN",
     "unique_output_path_exclusive_ownership_required": true,
     "concurrent_output_limitation": "On POSIX, a concurrently created empty target directory can be replaced during the final rename gap; concurrent writers are unsupported",
-    "independent_review": "PASS_WITH_DISCLOSURES"
+    "independent_review": "PASS corrected layout, normal patched-launcher install and fresh installed-client save proof"
+  },
+  "installed_runtime": {
+    "status": "PASS_PATCHED_NORMAL_INSTALL_AND_FOUR_PHASE_SAVE_REOPEN",
+    "tested_os": "Windows",
+    "scope": "Corrected source archive, normal native-build and normal content-mod discovery, fixture-powered sand processing",
+    "horizon_revision": "681124a485b82a27ac4e769756a2f3a2356e6827",
+    "sdk_revision": "3ac63df26d332bc344ba645d5d23497b7d4ad985",
+    "launcher_source_commit": "5515c06762a0634f037e643bd021dd0f7f1bb800",
+    "launcher_upstream_contribution": "https://github.com/horizon-rust/horizon/pull/5756",
+    "launcher_sha256": "6a362ea339d53c5854dac6fdbbf3c94b93ed4c4d33ca159215a3f88070d6741e",
+    "client_sha256": "921839eeff1a24a30f8da20838a147d787e3d1d6105214afd4a836430bcf31e9",
+    "native_archive_sha256": "d9cfe6d35bc82c7c2353c2b0018affc8d8cd8a0def0f79bcf696c8d48ab318c5",
+    "content_archive_sha256": "ab94a30985055ad725e43753997d415da0270cc7b99e4680a9bf3aa65812a9b6",
+    "installation_receipt_sha256": "2f5b978dc8b740ebad21477e0c6a137666e62fe69a7c78a5fa34f41669dc69de",
+    "installation_readback_sha256": "c743d67c879a1d919d6d911fb27b7cb7c1641ea1b7507897da43784112334b3e",
+    "installed_files": 24082,
+    "staged_source_files": 3769,
+    "prepared_resource_files": 23065,
+    "prepared_resources_match_immutable_cache_inventory": true,
+    "installed_client_matches_compiled_output": true,
+    "normal_mod_discovery_without_dev_mod": true,
+    "fresh_owned_profile": true,
+    "part1_receipt_sha256": "b5bb54c9f9046f66274d907fa11f68d5ca41d8f07776fc48cf232764a3dcd8db",
+    "part2_receipt_sha256": "21fb3a261db446854ef1096c67b83c2a0d020a25ca149fc3720ee088af5cd77b",
+    "bounded_invocation_seconds": [
+      248.634,
+      190.827
+    ],
+    "child_seconds": [
+      248.259,
+      190.433
+    ],
+    "phases": 4,
+    "native_trace_rows": 1226,
+    "full_policy_menu_observations": 38,
+    "source_hashes_verified": 14,
+    "natural_client_exits": 4,
+    "forced_terminations": 0,
+    "decode_errors": 0,
+    "max_fps_readback": 30,
+    "cpu_limit": 2,
+    "priority": "BelowNormal",
+    "profile_file_count": 23131,
+    "region_file_count": 27,
+    "collected_sandstone": 3,
+    "final_idle_ticks": 10,
+    "final_machines": {
+      "nominal": {
+        "ticks": 613,
+        "completed": 2,
+        "stored": 0,
+        "spent": 1200,
+        "wasted": 0,
+        "progress": 0,
+        "inputs": {},
+        "outputs": {}
+      },
+      "shortage": {
+        "ticks": 613,
+        "completed": 1,
+        "stored": 0,
+        "spent": 856,
+        "wasted": 256,
+        "progress": 0,
+        "inputs": {
+          "reference:block_sand": 4
+        },
+        "outputs": {}
+      }
+    },
+    "active_and_charged_negative_cooldown_persist": true,
+    "stale_output_mirror_reconciles_without_duplication": true,
+    "final_disk_nbt_independently_verified": true,
+    "independent_review": "PASS_ALL_FOUR_PHASES_RAW_LOGS_JOURNALS_AND_FINAL_DISK_NBT",
+    "full_installed_inventory_independent_rehash": "NOT_RUN; coordinator verified complete inventories, reviewer checked key artifacts and lineage",
+    "original_1204_row_trace_comparison": "NOT_RERUN_ON_INSTALLED_CLIENT",
+    "unmodified_stock_launcher": "NOT_RUN",
+    "limitations": [
+      "Fixture energy, not electrical network",
+      "Original Java save/reopen and chained scheduling parity not established",
+      "Removal/drop behavior, multiplayer, wider recipes and whole-pack parity not established"
+    ]
   }
 }
