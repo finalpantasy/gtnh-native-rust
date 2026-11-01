@@ -1,0 +1,207 @@
+{
+  "schema": "gtnh-native-engine-baseline-v1",
+  "status": "VERIFIED_SCOPED_NATIVE_BASE",
+  "date_utc": "2026-11-01",
+  "engine": {
+    "upstream_revision": "763528025d89cf575d7335e2a78d7fc48397d449",
+    "native_hooks_api": 40,
+    "build_id": "5c32213035ab3865370512703f382889b8a18cfe92052bff2fce373502f8a8bf",
+    "profile": "fast",
+    "client_sha256": "c4f1e6076630bb883d4d6f7612d1b0a8fd167c1b05ea8115c64a121b090c16bf",
+    "control_sha256": "46b7c80b0ab3e42cc966a056cd7bfb58e3b6e1f2c1850b2227356d0f43980264",
+    "source_inventory_sha256": "f20de84b3e210b2a53c4f216f7499137ecda44ebe9027faa5895f050430f4985"
+  },
+  "scenario": {
+    "fresh_world": true,
+    "seed": 5,
+    "creative": true,
+    "offscreen": true,
+    "physical_pixels": [
+      960,
+      540
+    ],
+    "logical_pixels": [
+      640,
+      360
+    ],
+    "display_scale": 1.5,
+    "render_distance_chunks": 4,
+    "fps_limit": 30,
+    "logical_cpu_affinity_limit": 2,
+    "priority": "BelowNormal",
+    "warmup_seconds": 15,
+    "static_seconds": 10,
+    "flight_seconds": 20,
+    "flight_start": [
+      -3.5,
+      120.0,
+      -7.5
+    ],
+    "flight_end": [
+      92.5,
+      120.0,
+      88.5
+    ],
+    "flight_pitch": 10,
+    "lod_distances_chunks": [
+      0,
+      16
+    ]
+  },
+  "renderer": {
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "vendor": "nvidia",
+    "driver": "NVIDIA 617.42",
+    "backend": "Vulkan",
+    "device_type": "discrete",
+    "size": [
+      960,
+      540
+    ],
+    "present_mode": "Immediate",
+    "drawn_sections": 307,
+    "resident_sections": 661,
+    "arena_bytes": 201326592,
+    "section_vertex_bytes": 135598368,
+    "gpu_allocated_bytes": 379673296,
+    "gpu_reserved_bytes": 872415232
+  },
+  "phases": [
+    {
+      "phase": "lod-disabled-flight",
+      "frame": {
+        "count": 587,
+        "mean_ms": 34.08469813930115,
+        "max_ms": 64.21990203857422,
+        "p50_ms": 33.65290069580078,
+        "p95_ms": 34.90719985961914,
+        "p99_ms": 52.22420120239258
+      },
+      "cpu": {
+        "count": 587,
+        "mean_ms": 2.301280071930341,
+        "max_ms": 21.819499969482422,
+        "p50_ms": 1.814099907875061,
+        "p95_ms": 5.3277997970581055,
+        "p99_ms": 13.012300491333008
+      },
+      "gpu": {
+        "count": 587,
+        "mean_ms": 0.07892824549488152,
+        "max_ms": 0.12595200538635254,
+        "p50_ms": 0.07782399654388428,
+        "p95_ms": 0.08908800035715103,
+        "p99_ms": 0.10956799983978271
+      },
+      "tick_ms": 5.082820415496826,
+      "tick_ms_max": 15.133172988891602,
+      "generated_chunks_delta": 132,
+      "meshed_sections_delta": 3141,
+      "engine_phases_avg_ms": {
+        "prepare": 0.4091458279239664,
+        "render": 1.3188333918024775,
+        "tick": 0.36988671239405185,
+        "update": 0.20496746202616664
+      },
+      "engine_slow_phases_avg_ms": {
+        "prepare": 5.9051001618305845,
+        "render": 8.146383464336395,
+        "tick": 1.0367666794918478,
+        "update": 0.5122833382338285
+      }
+    },
+    {
+      "phase": "lod-enabled-flight",
+      "frame": {
+        "count": 592,
+        "mean_ms": 33.77825353274474,
+        "max_ms": 53.213802337646484,
+        "p50_ms": 33.62049865722656,
+        "p95_ms": 34.04669952392578,
+        "p99_ms": 40.035400390625
+      },
+      "cpu": {
+        "count": 592,
+        "mean_ms": 3.4988459532929435,
+        "max_ms": 33.293701171875,
+        "p50_ms": 2.4960999488830566,
+        "p95_ms": 9.40530014038086,
+        "p99_ms": 18.90329933166504
+      },
+      "gpu": {
+        "count": 592,
+        "mean_ms": 0.2259424862930098,
+        "max_ms": 2.629631996154785,
+        "p50_ms": 0.17715199291706085,
+        "p95_ms": 0.33689600229263306,
+        "p99_ms": 1.3772799968719482
+      },
+      "tick_ms": 4.146183013916016,
+      "tick_ms_max": 11.483560562133789,
+      "generated_chunks_delta": 226,
+      "meshed_sections_delta": 4395,
+      "engine_phases_avg_ms": {
+        "prepare": 0.3294172272639903,
+        "render": 1.761083958418788,
+        "tick": 0.33006097809049756,
+        "update": 1.079452025653744
+      },
+      "engine_slow_phases_avg_ms": {
+        "prepare": 4.73833317309618,
+        "render": 14.244250426689783,
+        "tick": 0.255300001706928,
+        "update": 4.474916458129883
+      }
+    }
+  ],
+  "settled_lod": {
+    "active_tiles": 787,
+    "cached_tiles": 869,
+    "distance": 16,
+    "effective_distance": 16,
+    "far_detail": "full",
+    "pending_observations": 0,
+    "refined_samples": 110848,
+    "resident_quads": 993312,
+    "sampled_target_tiles": 864,
+    "source": "integrated",
+    "source_attempted": true,
+    "target_tiles": 864,
+    "terrain_distance": 16
+  },
+  "lifecycle": {
+    "watchdog_seconds": 158.067,
+    "watchdog_limit_seconds": 600,
+    "natural_exit_code": 0,
+    "forced_tree_termination": false,
+    "cleanup_confirmed": true,
+    "all_eight_postchecks_passed": true,
+    "source_files": 3707,
+    "resource_files_per_tree": 23065,
+    "resource_bytes_per_tree": 151120981,
+    "originals_and_private_resources_unchanged": true
+  },
+  "evidence_sha256": {
+    "runtime_receipt": "5c2f0a8ea3e5347954eee6f8d84c92576178e27d477fc446ac1de35acc0735ea",
+    "raw_samples": "7759f1c5c64e788d82b7d740b5b1a87729a1ca1f3e95c3c41788d3140c3bb634",
+    "sanitized_command_journal": "0bf9170f1c94b4ee97459e551593489c29e350718e25a0bb753c14ae18fe33ca",
+    "independent_analysis": "07d5baba80b7b228a79ef8dc01febc4d3e01e6b41d999f8001e6cd536659d236",
+    "screenshot": "e983f6c0ddfff71532694b51e7906378603919c24e2264aa48f143c67d131871",
+    "runner_source": "16e6ce69405d12c2b48035045aa542dce223c150d092929a00a5f8f608115a6b",
+    "inputs": "568599f4a05ff1cae2ec3e67429d49976d274d2b8aca86c3d6b69225bcb4bd85"
+  },
+  "interpretation": [
+    "Horizon already implements wgpu rendering, background terrain workers and terrain LOD; this verifies those capabilities in the accepted executable, not newly implemented features.",
+    "CPU timing excludes GPU, display and frame-limiter waits; GPU timestamp samples are asynchronous.",
+    "LOD phases do different terrain work. Their timing differences establish no speedup or causal optimization result.",
+    "GPU allocation/reservation values are final backend counters, not peak memory or total driver/system VRAM."
+  ],
+  "limits": [
+    "Single native-base world; complete GTNH pack not loaded.",
+    "Two logical CPUs and 30-FPS cap; no full-machine scaling or maximum-FPS claim.",
+    "Worker-specific timings and process RSS were not measured.",
+    "Cubic world ownership/persistence integration remains unfinished.",
+    "Single static LOD screenshot; transition/seam correctness, distant content parity and object LOD remain unverified.",
+    "No GPU simulation offload or whole-client memory-budget acceptance."
+  ]
+}

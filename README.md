@@ -22,6 +22,8 @@ The [reference compressor prototype](docs/reference-compressor.md) now also runs
 
 The separate [LV compressor evaluation](docs/lv-compressor.md) matches all 1,204 measured sand-processing reference rows, including recovery after power loss. The corrected source package also builds and installs through a patched Windows launcher, then passes four fresh native save/reopen sessions using normal content-mod discovery. Active work, charged recovery, player inventory, and collected output persist without duplication. The portable source tool keeps both Rust libraries separate. The earlier 1,204-row comparison has not been rerun against this installed executable. Production electrical networks, unmodified stock-launcher support, and complete pack parity remain unfinished.
 
+The accepted native base now has a [verified rendering, streaming and terrain-LOD baseline](docs/native-engine-baseline.md), including real GPU timestamps, complete distant-terrain generation and a reviewed game screenshot. The isolated run passed clean shutdown and full source/resource preservation checks. Its workload capped at two CPUs and 30 FPS establishes no optimization, scaling or full-pack performance claim. Playable cubic-world integration and object LOD remain unfinished.
+
 ## Run the library checks
 
 The commands below require Rust 1.95 or newer because they include the desktop viewer. The core libraries separately declare Rust 1.90.
